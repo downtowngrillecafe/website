@@ -1,0 +1,18 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<main tabindex="-1" id="main-content">
+  <div class="menu">
+    {% include "partials/breakfast.html" %}
+    {{ content | safe }}
+    <button class="menu-download"><a href="#">Download Our Menu</a></button>
+  </div>
+  <section id="others">
+    <p>Please inform someone of any other food allergies that someone in your party may have. Thank
+      you.</p>
+    <p>Prices subject to change and do not include 9&percnt; New Hampshire meals tax.</p>
+    <p>Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk
+      of food-borne illness.</p>
+  </section>
+</main>
+{% endblock %}

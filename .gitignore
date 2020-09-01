@@ -1,0 +1,18 @@
+# Misc
+*.log
+npm-debug.*
+*.scssc
+*.swp
+.DS_Store
+.sass-cache
+.env
+.cache
+Thumbs.db
+
+# Node modules and output
+node_modules
+dist
+src/_includes/css
+
+# VS Code workspace file
+*.code-workspace
