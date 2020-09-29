@@ -1,0 +1,23 @@
+<h3 class="sidebar">{{ miscellaneous.summaryTen }}</h3>
+<div class="item">
+  <div class="item__wrapper">
+    <div class="item__name">{{ item.name }}</div>
+    <div class="item__description">{{ item.description }}</div>
+    <div class="item__price">{{ item.price }}</div>
+  </div>
+</div>
+
+<h3 class="sidebar">{{ miscellaneous.summaryEleven }}</h3>
+<div class="item">
+  <div class="item__wrapper">
+    <div class="item__name">{{ item.name }}</div>
+    <div class="item__description">{{ item.description }}</div>
+    <div class="item__price">{{ item.price }}</div>
+  </div>
+</div>
+
+{% for item in collections.miscellaneous %}
+
+{% endfor %}
+
+</div>

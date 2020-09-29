@@ -1,10 +1,12 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
-<main tabindex="-1" id="main-content">
   <div class="menu">
     {% include "partials/breakfast.html" %}
+    {% include "partials/lunch.html" %}
+    {% include "partials/miscellaneous.html" %}
     {{ content | safe }}
+
     <button class="menu-download"><a href="#">Download Our Menu</a></button>
   </div>
   <section id="others">
@@ -14,5 +16,4 @@
     <p>Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk
       of food-borne illness.</p>
   </section>
-</main>
 {% endblock %}

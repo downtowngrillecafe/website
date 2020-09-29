@@ -9,7 +9,23 @@ intro:
   buttonUrl: '/menu'
   image: '/images/logo.png'
   imageAlt: 'DowntownGrille Cafe logo a ship with a brown sail and a blue sail.'
+  soups: 'French Onion, Chicken Noodle, Minestrone'
+  specials: 'Lobster Roll, Three-Bean Burrito, Meatloaf'
 breakfast:
   title: 'Breakfast'
-  summary: 'Entrees'
+  summary: 'Wraps'
+  summaryTwo: 'Breakfast Sandwiches'
+  summaryThree: 'Eggs & Omeletes'
+  summaryFour: 'Baked Goods'
+  summaryFive: 'Waffles/More'
+lunch:
+  title: 'Lunch'
+  summarySix: 'Cold Sandwiches'
+  summarySeven: 'Hot Sandwiches'
+  summaryEight: 'Sides'
+  summaryNine: 'Soups/Salads'
+miscellaneous:
+  summaryTen: 'Additions'
+  summaryEleven: 'Lattes'
+metaDesc: 'The friendly staff of the Downtown Grille Cafe warmly welcomes guests to our beautiful location in Wolfeboro, New Hampshire. We offer the finest organic and fair-trade gourmet coffee and tea, several gluten-free options, and unique and delicious breakfast and lunch menus.'
 ---

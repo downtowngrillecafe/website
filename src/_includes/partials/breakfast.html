@@ -14,5 +14,16 @@
         <span class="allergen eggs">{{ item.allergen.eggs }}</span>
       </div>
       {% endfor %}
+
+      <h4>{{ breakfast.summaryTwo }}</h4>
+      <h4>{{ breakfast.summaryThree }}</h4>
     </div>
-  </div>
+
+    <div class="sides">
+      <h3 class="sidebar">{{ breakfast.summaryFour }}</h3>
+      <h3 class="sidebar">{{ breakfast.summaryFive }}</h3>
+    
+    {% for item in collections.lunch %}
+
+    {% endfor %}
+

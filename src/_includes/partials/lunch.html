@@ -1,0 +1,26 @@
+<h3>{{ lunch.title }}</h3>
+<h4>{{ lunch.summary }}</h4>
+<div class="item">
+  <div class="item__wrapper">
+    {% for item in collections.lunch %}
+    <div class="item__name">{{ item.name }}</div>
+    <div class="item__description">{{ item.description }}
+    </div>
+    <div class="item__prepared">{{ item.prepared }}</div>
+    <div class="item__price">{{ item.price }}</div>
+    <div class="item__allergens">
+      <span class="allergen dairy">{{ item.allergen.dairy }}</span>
+      <span class="allergen eggs">{{ item.allergen.eggs }}</span>
+    </div>
+    {% endfor %}
+
+    <h4>{{ lunch.summarySix }}</h4>
+    <h4>{{ lunch.summarySeven }}</h4>
+  </div>
+
+  <div class="sides">
+    
+    <h3 class="sidebar">{{ lunch.summaryEight }}</h3>
+    <h3 class="sidebar">{{ lunch.summaryNine }}</h3>
+  </div>
+  

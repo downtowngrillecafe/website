@@ -1,0 +1,250 @@
+header {
+  display: grid;
+  grid-template-columns: max-content 2fr 1fr;
+  border: 6px solid #0b132b;
+  border-width: 0 0 6px;
+}
+
+.logo {
+  display: grid;
+  grid: minmax(100px, min-content) / repeat(auto-fill, 250px);
+  grid-column: span 3;
+  justify-content: center;
+}
+
+@media (min-width: 550px) {
+  .logo {
+    grid-column: span 1;
+  }
+}
+
+h1.hours {
+  grid-column: span 3;
+  color: #563c1f;
+  background: hsla(60, 33%, 99%, 1.0);
+  padding: 1rem 1.6rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+  line-height: 1.1;
+}
+
+@media (min-width: 550px) {
+  h1.hours {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 880px) {
+  h1.hours {
+    grid-column: span 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1.hours {
+    font-size: 3.6rem;
+  }
+}
+
+.location {
+  grid-column: 1 / -1;
+  background: hsla(60, 33%, 99%, 1.0);
+  color: #0b132b;
+  text-align: center;
+  padding: 1.6rem;
+}
+
+.location h2 {
+  font-size: 1.25em;
+}
+
+.location p:nth-child(1) {
+  font-family: 'Crimson Pro';
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0 0.5rem 0.5rem;
+}
+
+@media (min-width: 1400px) {
+  .location p:nth-child(1) {
+    font-size: 2.6rem;
+  }
+}
+
+@media (min-width: 550px) {
+  .location {
+    display: flex;
+    align-items: center;
+  }
+
+  .location p:nth-child(1) {
+    margin: 0.3rem 0.8rem 0.3rem 0.3rem;
+  }
+}
+
+@media (min-width: 880px) {
+  .location {
+    grid-column: 3 / 4;
+  }
+}
+
+/*** Special Announcements ***/
+
+.specials {
+  background-color: #f8c954;
+  border: 6px solid #0b132b;
+  border-width: 6px 0 6px;
+  grid-column: 1 / 4;
+  padding: 0.2rem;
+}
+
+.specials p {
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+span.allergen {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font: 800 2.5rem 'Crimson Pro';
+  color: #fff;
+  border-radius: 50%;
+  line-height: 1.9;
+}
+
+span.allergen:not(:first-child) {
+  margin-left: -2px;
+}
+
+span.allergen.eggs {
+  background: #d91c1c;
+}
+
+span.allergen.dairy {
+  background: #c05402;
+}
+
+span.allergen.wheat {
+  background: #103aad;
+}
+
+span.allergen.soy {
+  background: #008000;
+}
+
+span.allergen.fish {
+  background: #cc9933;
+}
+
+span.allergen.sea {
+  background: #4d0085;
+}
+
+span.allergen.nuts {
+  background: #a62b2b;
+}
+
+.legend {
+  background: hsla(60, 33%, 99%, 1.0);
+  flex-direction: row;
+}
+
+@media (min-width: 880px) {
+  .legend {
+    background-color: hsla(255, 100%, 100%, 1.0);
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1 / 4;
+    place-self: center;
+  }
+}
+
+.legend__item {
+  display: flex;
+  flex: 1;
+  padding: 1rem 0;
+}
+
+.legend__item span {
+  display: inline-block;
+  height: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 1.6;
+  padding: 2px 12px 6px 12px;
+  flex: auto;
+}
+
+.legend__item i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  font-family: 'Crimson Pro', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.6;
+  color: hsla(255, 100%, 100%, 1.0);
+  border-radius: 50%;
+}
+
+.legend__item:nth-child(1) {
+  color: hsla(0, 77%, 48%, 1.0);
+}
+
+.legend__item:nth-child(1) i {
+  background: hsla(0, 77%, 48%, 1.0);
+}
+
+.legend__item:nth-child(2) {
+  color: hsla(26, 98%, 38%, 1.0);
+}
+
+.legend__item:nth-child(2) i {
+  background: hsla(26, 98%, 38%, 1.0);
+}
+
+.legend__item:nth-child(3) {
+  color: hsla(224, 83%, 37%, 1.0);
+}
+
+.legend__item:nth-child(3) i {
+  background: hsla(224, 83%, 37%, 1.0);
+}
+
+.legend__item:nth-child(4) {
+  color: hsla(120, 100%, 25%, 1.0);
+}
+
+.legend__item:nth-child(4) i {
+  background: hsla(120, 100%, 25%, 1.0);
+}
+
+.legend__item:nth-child(5) {
+  color: hsla(37, 87%, 21%, 1.0);
+}
+
+.legend__item:nth-child(5) i {
+  background: hsla(37, 87%, 21%, 1.0);
+}
+
+.legend__item:nth-child(6) {
+  color: hsla(275, 100%, 26%, 1.0);
+}
+
+.legend__item:nth-child(6) i {
+  background: hsla(275, 100%, 26%, 1.0);
+}
+
+.legend__item:nth-child(7) {
+  color: hsla(0, 59%, 41%, 1.0);
+}
+
+.legend__item:nth-child(7) i {
+  background: hsla(0, 59%, 41%, 1.0);
+}
