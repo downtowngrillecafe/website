@@ -3,7 +3,7 @@ title: 'DowntownGrille Cafe'
 layout: 'layouts/home.html'
 intro:
   eyebrow: 'Open Daily 7AM - 3PM, 7 days a week. Breakfast everyday until 11 AM.'
-  main: '33 S. Main Street, Wolfeboro, N.H. 03894 - 603-569-4504'
+  main: '33 South Main Street  Wolfeboro, N.H. 603-569-4504'
   summary: 'TBD'
   buttonText: 'Download Our Menu'
   buttonUrl: '/menu'
