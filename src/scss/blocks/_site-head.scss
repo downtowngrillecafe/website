@@ -1,3 +1,7 @@
+:root {
+  --tt-base: 16;
+}
+
 header {
   display: grid;
   grid-template-columns: max-content 2fr 1fr;
@@ -18,42 +22,39 @@ header {
   }
 }
 
-h1.hours {
+h1.primary-headline {
   grid-column: span 3;
   color: #563c1f;
   background: hsla(60, 33%, 99%, 1.0);
-  padding: 1rem 1.6rem;
-  font-size: 2.2rem;
+  padding: 1rem 1.6rem 0 1.6rem;
   text-transform: uppercase;
-  display: flex;
   text-align: center;
-  line-height: 1.1;
+  --tt-max: 6000;
 }
 
 @media (min-width: 550px) {
-  h1.hours {
+  h1.primary-headline {
     grid-column: span 2;
   }
 }
 
 @media (min-width: 880px) {
-  h1.hours {
+  h1.primary-headline {
     grid-column: span 1;
   }
 }
 
-@media (min-width: 1200px) {
-  h1.hours {
-    font-size: 3.6rem;
-  }
-}
+// @media (min-width: 1200px) {
+//   h1.primary-headline {
+    
+//   }
+// }
 
 .location {
   grid-column: 1 / -1;
   background: hsla(60, 33%, 99%, 1.0);
   color: #0b132b;
   text-align: center;
-  padding: 1.6rem;
 }
 
 .location h2 {
@@ -92,7 +93,7 @@ h1.hours {
 
 /*** Special Announcements ***/
 
-.specials {
+.section-subheadline {
   background-color: #f8c954;
   border: 6px solid #0b132b;
   border-width: 6px 0 6px;
@@ -100,8 +101,8 @@ h1.hours {
   padding: 0.2rem;
 }
 
-.specials p {
-  font-size: 2rem;
+.section-subheadline p {
+  font-size: 1.2rem;
   padding-left: 2rem;
 }
 

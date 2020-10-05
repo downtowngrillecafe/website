@@ -72,6 +72,10 @@ td {
   border: 0;
 }
 
+:root {
+  --heading-one: 0.5rem;
+}
+
 /*** Typography ***/
 
 html {
@@ -79,7 +83,7 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  // font-size: 1.4rem;
   min-height: 100vh;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
