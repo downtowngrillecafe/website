@@ -1,0 +1,18 @@
+// Centralize your typographic styles.
+// Note that I deleted most instances of font-size and line-height.
+// This is what I mean by do less. Typetura styles will handle these things.
+
+:root {
+	--tt-base: 16;
+}
+
+.primary-headline {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #563c1f;
+  max-width: 60rem; // Make sure the headline doesn’t get too big
+  margin-left: auto;
+  margin-right: auto;
+  --tt-max: 2500; // adjusts the scaling range to make things a little smaller
+}
