@@ -72,27 +72,12 @@ td {
   border: 0;
 }
 
-:root {
-  --heading-one: 0.5rem;
-}
-
 /*** Typography ***/
 
-html {
-  font-size: 62.5%;
-}
-
 body {
-  // font-size: 1.4rem;
   min-height: 100vh;
-  line-height: 1.5;
-  text-rendering: optimizeSpeed;
-}
-
-* {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  // Keep typographic styles on :root or html, not body.
+  // Also Typetura handles all this setup. Do less do less.
 }
 
 a,
