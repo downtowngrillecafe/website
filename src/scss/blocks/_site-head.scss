@@ -22,55 +22,11 @@ header {
   }
 }
 
-h1.primary-subheadline {
-  grid-column: span 3;
-  color: #563c1f;
-  background: hsla(60, 33%, 99%, 1.0);
-  padding: 2.4rem 1.6rem 0 1.6rem;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-@media (min-width: 550px) {
-  h1.primary-subheadline {
-    grid-column: span 2;
-  }
-}
-
-@media (min-width: 880px) {
-  h1.primary-subheadline {
-    grid-column: span 1;
-  }
-}
-
-// @media (min-width: 1200px) {
-//   h1.primary-subheadline {
-    
-//   }
-// }
-
 .location {
   grid-column: 1 / -1;
   background: hsla(60, 33%, 99%, 1.0);
   color: #0b132b;
   text-align: center;
-}
-
-.location h2 {
-  font-size: 1.25em;
-}
-
-.location p:nth-child(1) {
-  font-family: 'Crimson Pro';
-  font-weight: 700;
-  font-size: 1.4rem;
-  margin: 0 0.5rem 0.5rem;
-}
-
-@media (min-width: 1400px) {
-  .location p:nth-child(1) {
-    font-size: 2.6rem;
-  }
 }
 
 @media (min-width: 550px) {
@@ -92,17 +48,12 @@ h1.primary-subheadline {
 
 /*** Special Announcements ***/
 
-.section-subheadline {
+.specials { // Use semantic class names based on what you are doing with the text.
   background-color: #f8c954;
   border: 6px solid #0b132b;
   border-width: 6px 0 6px;
   grid-column: 1 / 4;
-  padding: 0.2rem;
-}
-
-.section-subheadline p {
-  font-size: 1.2rem;
-  padding-left: 2rem;
+  padding: 0.4rem 1.4rem;
 }
 
 span.allergen {
@@ -182,10 +133,10 @@ span.allergen.nuts {
   display: inline-block;
   width: 30px;
   height: 30px;
-  font-family: 'Crimson Pro', sans-serif;
+  line-height: 30px; // to vertically center text, make the line height equal to the element height
+  font-size: 1.4rem;
   font-weight: 400;
   text-align: center;
-  line-height: 2.2;
   color: hsla(255, 100%, 100%, 1.0);
   border-radius: 50%;
 }

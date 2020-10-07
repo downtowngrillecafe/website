@@ -1,6 +1,6 @@
 <div class="entrees">
-  <h3>{{ breakfast.title }}</h3>
-  <h4>{{ breakfast.summary }}</h4>
+  <h3 class="section-headline">{{ breakfast.title }}</h3>
+  <h4 class="section-headline">{{ breakfast.summary }}</h4>
   <div class="item">
     <div class="item__wrapper">
       {% for item in collections.breakfast %}
@@ -20,8 +20,8 @@
     </div>
 
     <div class="sides">
-      <h3 class="sidebar">{{ breakfast.summaryFour }}</h3>
-      <h3 class="sidebar">{{ breakfast.summaryFive }}</h3>
+      <h3 class="sidebar section-headline">{{ breakfast.summaryFour }}</h3>
+      <h3 class="sidebar section-headline">{{ breakfast.summaryFive }}</h3>
     
     {% for item in collections.lunch %}
 
