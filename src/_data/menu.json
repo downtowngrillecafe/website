@@ -1,7 +1,64 @@
-{
-  "name": "Egg Simple",
-  "description": "One (1) egg your way with American cheese in a delicious wrap.",
-  "prepared": "Grilled",
-  "price": "$4.25",
-  "allergens": ["eggs", "dairy"]
-}
+[
+  {
+    "item1": [
+      {
+        "name": "Egg Simple",
+        "description": "One (1) egg your way with American cheese in a delicious wrap.",
+        "prepared": "Grilled",
+        "price": "$4.25",
+        "allergens": ["eggs", "dairy"],
+        "id": 1
+      }
+    ],
+    "item2": [
+      {
+        "name": "Garden Wrap",
+        "description": "Two (2) scrambled eggs, American cheese, tomatoes, sautéed mushrooms, green onions and baby spinach in a wrap.",
+        "prepared": "Grilled",
+        "price": "$7.00",
+        "allergens": ["eggs", "dairy", "wheat"],
+        "id": 2
+      }
+    ],
+    "item3": [
+      {
+        "name": "Market Wrap",
+        "description": "Two (2) scrambled eggs, Cheddar cheese, sausage patty, green onions, peppers and sautéed mushrooms in a wrap.",
+        "prepared": "Grilled",
+        "price": "$7.25",
+        "allergens": ["eggs", "dairy", "wheat"],
+        "id": 3
+      }
+    ],
+    "item4": [
+      {
+        "name": "Southwest Wrap",
+        "description": "Two (2) scrambled eggs, Pepper Jack cheese, black bean & corn relish, salsa & green onions in a wrap.",
+        "prepared": "Grilled",
+        "price": "$6.50",
+        "allergens": ["eggs", "dairy"],
+        "id": 4
+      }
+    ],
+    "item5": [
+      {
+        "name": "Flat Wrap Benny w/Hash",
+        "description": "Two (2) poached eggs, Hollandaise sauce & our own corned beef hash in a wrap.",
+        "prepared": "Grilled",
+        "price": "$8.50",
+        "allergens": ["eggs", "dairy"],
+        "id": 5
+      }
+    ],
+    "item6": [
+      {
+        "name": "Corned Beef Hash w/Eggs & Cheese",
+        "description": "Two (2) fried eggs, our own corned beef hash, cheese in a wrap.",
+        "prepared": "Grilled",
+        "price": "$7.75",
+        "allergens": ["eggs", "dairy"],
+        "id": 6
+      }
+    ]
+  }
+]
