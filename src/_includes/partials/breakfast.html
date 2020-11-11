@@ -1,29 +1,19 @@
 <div class="entrees">
   <h3 class="section-headline">{{ breakfast.title }}</h3>
   <h4 class="section-headline">{{ breakfast.summary }}</h4>
+  {% for wrap in breakfastMenu.wraps %}
   <div class="item">
     <div class="item__wrapper">
-      {% for item in collections.breakfast %}
-      <div class="item__name">{{ item.name }}</div>
-      <div class="item__description">{{ item.description }}
-      </div>
-      <div class="item__prepared">{{ item.prepared }}</div>
-      <div class="item__price">{{ item.price }}</div>
+      <div class="item__name">{{ wrap.name }}</div>
+      <div class="item__price">{{ wrap.price }}</div>
+      <div class="item__description">{{ wrap.description }}</div>
+      <div class="item__prepared">{{ wrap.prepared }}</div>
       <div class="item__allergens">
-        <span class="allergen dairy">{{ item.allergen.dairy }}</span>
-        <span class="allergen eggs">{{ item.allergen.eggs }}</span>
+        <!-- iterate the allergens array in global data and use my homeade check filter -->
+        {% for allergen in wrap.allergens %}
+        <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
+        {% endfor %}
       </div>
-      {% endfor %}
-
-      <h4>{{ breakfast.summaryTwo }}</h4>
-      <h4>{{ breakfast.summaryThree }}</h4>
-    </div>
-
-    <div class="sides">
-      <h3 class="sidebar section-headline">{{ breakfast.summaryFour }}</h3>
-      <h3 class="sidebar section-headline">{{ breakfast.summaryFive }}</h3>
-    
-    {% for item in collections.lunch %}
-
-    {% endfor %}
-
+  </div>
+  {% endfor %}
+</div>
