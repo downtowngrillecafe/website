@@ -1,0 +1,187 @@
+{
+    "baked_goods": [
+        {
+            "name": "Muffins",
+            "price": "$3.00",
+            "desc": "Blueberry, coffee cake, triple berry, chocolate chip, pistachio, bran, corn, cranberry orange."
+        },
+        {
+            "name": "Cookies",
+            "price": "$4.50",
+            "desc": "Peanut butter chocolate chip, choclate chip"
+        },
+        {
+            "name": "Soufflés",
+            "price": "$5.00",
+            "desc": "Blueberry, chocolate chip, cranberry orange"
+        },
+        {
+            "name": "GLUTEN FREE MULTI-TOAST, BAGEL, WRAP, OR ENGLISH MUFFIN",
+            "price": "$4.50",
+            "desc": ""
+        }
+    ],
+    "waffles_and_more": [
+        {
+            "name": "Traditional Waffle",
+            "price": "$7.00",
+            "desc": "Crispy golden malted waffle",
+            "allergens": [
+                "dairy"
+            ]
+        },
+        {
+            "name": "Multi-Grain Traditional Waffle",
+            "price": "$7.00",
+            "desc": "Crispy golden whole grain waffle.",
+            "allergens": ["dairy"]
+        },
+        {
+            "name": "Gluten Free Traditional Waffle",
+            "price": "$9.25",
+            "desc": "Our gluten free traditional waffle.",
+            "allergens": ["dairy"]
+        },
+        {
+            "name": "French Toast",
+            "price": "$8.00",
+            "desc": "Hand cut French bread or multi-grain bread dipped in egg batter & griddled until golden brown.",
+            "allergens": [
+                "dairy",
+                "eggs"
+            ]
+        },
+        {
+            "name": "Oatmeal",
+            "price": "$8.00",
+            "desc": "with raisins & brown sugar. Strawberries & blueberries optional.",
+            "allergens": [
+                "dairy"
+            ]
+        }
+    ],
+    "sides": [
+        {
+            "name": "French Fries",
+            "price_option": {
+                "side": "$3.00",
+                "large": "$4.25"
+            }
+        },
+        {
+            "name": "Sweet Potato Fries",
+            "price_option": {
+                "side": "$4.00",
+                "large": "$5.50"
+            }
+        },
+        {
+            "name": "Onion Rings",
+            "price_option": {
+                "side": "$4.00",
+                "large": "$5.50"
+            }
+        },
+        {
+            "name": "Side Salad",
+            "price": "$5.75"
+        }
+    ],
+    "dressings": [
+        "Balsamic Vinaigrette,",
+        "Light Italian,",
+        "Bleu Cheese,",
+        "Caesar,", 
+        "Light Honey Dijon,",
+        "Parmesan Peppercorn,", 
+        "Ranch."
+    ],
+    "soups_and_salads": [
+        {
+            "name": "Three Bean & Beef Chili",
+            "price": "$6.50",
+            "desc": "3 Bean & Beef chili served with Cheddar cheese and chopped onion."
+        },
+        {
+            "name": "Mixed Green Salad",
+            "price": "$9.50",
+            "desc": "Lettuce, cucumbers, tomatoes, carrots, broccoli & peppers."
+        },
+        {
+            "name": "Chef Salad",
+            "price": "$12.50",
+            "desc": "Lettuce, cucumbers, tomatoes, carrots, broccoli, peppers, hard boiled egg topped with ham, turkey, and Swiss cheese."
+        },
+        {
+            "name": "Signature Salad",
+            "price": "$10.50",
+            "desc": "Baby spinach topped with cranberries, almonds, and goat cheese."
+        }
+    ],
+    "additions": [
+        {
+            "name": "CHICKEN, TUNA, EGG OR PORTOBELLO MUSHROOM",
+            "price": "$3.75"
+        },
+        {
+            "name": "Chicken Breast",
+            "price": "$4.25"
+        },
+        {
+            "name": "Lobster Meat",
+            "price": "MKT$"
+        }
+    ],
+    "lattes": [
+        {
+            "name": "Americano",
+            "price": "$3.00",
+            "desc": "Espresso and hot water."
+        },
+        {
+            "name": "Capuccino",
+            "price": "$3.50",
+            "desc": "Espresso and steamed milk foam."
+        },
+        {
+            "name": "Espresso",
+            "price": "$2.50",
+            "desc": "Double shot!"
+        },
+        {
+            "name": "Latte",
+            "price": "$3.50",
+            "desc": "Espresso and steamed milk."
+        },
+        {
+            "name": "Mocha",
+            "price": "$3.75",
+            "desc": "Latte with dark chocolate syrup."
+        },
+        {
+            "name": "Shot in the dark",
+            "price": "$3.50",
+            "desc": ""
+        },
+        {
+            "name": "Chai Latte",
+            "price": "$3.50",
+            "desc": "Chai spice and steamed milk."
+        },
+        {
+            "name": "Specialty Latte",
+            "price": "$4.50",
+            "desc": ""
+        },
+        {
+            "name": "Tea Latter",
+            "price": "$3.50",
+            "desc": "Loose leaf tea bag in steamed milk."
+        },
+        {
+            "name": "Cafe Au Lait",
+            "price": "$3.25",
+            "desc": "Fresh roasted coffee with a side of steamed milk."
+        }
+    ]
+}
