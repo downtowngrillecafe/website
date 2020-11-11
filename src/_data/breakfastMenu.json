@@ -57,10 +57,10 @@
         }
     ],
     "bread_types": [
-        "Plain", "Wheat", "Tomato", "Spinach", "Garlic & Herb", "Gluten Free", "or Low-Carb."
+        "Plain,", "Wheat,", "Tomato,", "Spinach,", "Garlic & Herb,", "Gluten Free,", "or Low-Carb."
     ],
     "protein_choices": [
-        "Bacon", "Sausage Patty", "Ham", "Spinach & Tomato", "or Portabello Mushroom."
+        "Bacon,", "Sausage Patty,", "Ham,", "Spinach & Tomato,", "or Portabello Mushroom."
     ],
     "breakfast_sandwiches": [
         {
