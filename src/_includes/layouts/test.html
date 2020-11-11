@@ -2,7 +2,6 @@
 
 {% block content %}
 <div class="menu">
-    <!-- Breakfast -->
     <div class="entrees">
     <h3 class="section-headline">{{ breakfast.title }}</h3>
     <h4 class="section-headline">{{ breakfast.summary }}</h4>
@@ -14,7 +13,6 @@
         <div class="item__description">{{ wrap.description }}</div>
         <div class="item__prepared">{{ wrap.prepared }}</div>
         <div class="item__allergens">
-            <!-- iterate the allergens array in global data and use my homeade check filter -->
             {% for allergen in wrap.allergens %}
             <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
             {% endfor %}
@@ -23,12 +21,11 @@
     {% endfor %}
     </div>
     <div class="extras">
-        <span class="wraps">Wraps: {% for bread in breakfastMenu.bread_types %} {{ bread }} {% endfor %}</span>
-        <br>
-        <span class="protein-choice">Protein Choice: {% for protein in breakfastMenu.protein_choices %} {{ protein }} {% endfor %}</span>
+        <span class="wraps">{{ breakfast.summary }}: {% for bread in breakfastMenu.bread_types %} {{ bread }} {% endfor %}</span>
+        <span class="protein-choice">{{ miscellaneous.summaryTwelve }}: {% for protein in breakfastMenu.protein_choices %} {{ protein }} {% endfor %}</span>
     </div>
 
-    <h4>Breakfast Sandwiches</h4>
+    <h4>{{ breakfast.summaryTwo }}</h4>
     {% for sandwich in breakfastMenu.breakfast_sandwiches %}
     <div class="item">
         <div class="item__wrapper">
@@ -45,11 +42,11 @@
     </div>
     {% endfor %}
     <div class="extras">
-        <span class="bread-options">Bread Options *: {% for bread in breakfastMenu.bread_options_two %} {{ bread }}{% endfor %}  - additional charges may apply.</span>
-        <span class="protein-choice">Protein Choice: {% for protein in breakfastMenu.protein_choices %} {{ protein }} {% endfor %}</span>
+        <span class="bread-options">{{ miscellaneous.summaryThirteen}} *: {% for bread in breakfastMenu.bread_options_two %} {{ bread }}{% endfor %}  - additional charges may apply.</span>
+        <span class="protein-choice">{{ miscellaneous.summaryTwelve }}: {% for protein in breakfastMenu.protein_choices %} {{ protein }} {% endfor %}</span>
     </div>
 
-    <h4>Eggs &amp; Omelets</h4>
+    <h4>{{ breakfast.summaryThree }}</h4>
     {% for item in breakfastMenu.eggs_and_omelettes %}
     <div class="item">
         <div class="item__wrapper">
@@ -65,8 +62,8 @@
     </div>
     {% endfor %}
 
-    <h3>Lunch</h3>
-    <h4>Cold Sandwiches</h4>
+    <h3>{{ lunch.title }}</h3>
+    <h4>{{ lunch.summarySix }}</h4>
     {% for sandwich in lunchMenu.cold_sandwiches %}
     <div class="item">
         <div class="item__wrapper">
@@ -82,7 +79,7 @@
     </div>
     {% endfor %}
 
-    <h4>Hot Sandwiches</h4>
+    <h4>{{ lunch.summarySeven }}</h4>
     {% for sandwich in lunchMenu.hot_sandwiches %}
     <div class="item">
         <div class="item__wrapper">
@@ -99,7 +96,7 @@
     {% endfor %}
     
     <div class="sides">
-    <h3 class="sidebar">Baked Goods</h3>
+    <h3 class="sidebar">{{ breakfast.summaryFour }}</h3>
     {% for good in misc.baked_goods %}
     <div class="item">
         <div class="item__wrapper">
@@ -110,7 +107,7 @@
     </div>
     {% endfor %}
 
-    <h3 class="sidebar">Waffles/More</h3>
+    <h3 class="sidebar">{{ breakfast.summaryFive }}</h3>
     {% for item in misc.waffles_and_more %}
     <div class="item">
         <div class="item__wrapper">
@@ -126,7 +123,7 @@
     </div>
     {% endfor %}
 
-    <h3 class="sidebar">Sides</h3>
+    <h3 class="sidebar">{{ lunch.summaryEight }}</h3>
     {% for side in misc.sides %}
     <div class="item">
         <div class="item__wrapper">
@@ -141,14 +138,14 @@
     {% endfor %}
 
     <div class="extras">
-        <p>Dressings:
+        <p>{{ miscellaneous.summaryFourteen }}:
         {% for dressing in misc.dressings %}
             {{ dressing }}
         {% endfor %}
         </p>
     </div>
     
-    <h3 class="sidebar">Soups/Salads</h3>
+    <h3 class="sidebar">{{ lunch.summaryNine }}</h3>
     {% for side in misc.soups_and_salads %}
     <div class="item">
         <div class="item__wrapper">
@@ -159,7 +156,7 @@
     </div>
     {% endfor %}
     
-    <h3 class="sidebar">Additions</h3>
+    <h3 class="sidebar">{{ miscellaneous.summaryTen }}</h3>
     {% for extra in misc.additions %}
         <div class="item">
             <div class="item__wrapper">
@@ -169,7 +166,7 @@
         </div>
     {% endfor %}
 
-    <h3 class="sidebar">Lattes</h3>
+    <h3 class="sidebar">{{ miscellaneous.summaryEleven }}</h3>
     {% for drink in misc.lattes %}
         <div class="item">
             <div class="item__wrapper">
@@ -180,11 +177,11 @@
         </div>
     {% endfor %}
 
-    <button class="menu-download"><a href="#">Download Our Menu</a></button>
+    <button class="menu-download"><a href="#">{{ intro.buttonText }}</a></button>
 </div>
     <section id="others">
-        <p>Please inform someone of any other food allergies that someone in your party may have. Thank you.</p>
-        <p>Prices subject to change and do not include 9&percnt; New Hampshire meals tax.</p>
-        <p>Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of food-borne illness.</p>
+        <p>{{ others.inform }}</p>
+        <p>{{ others.prices }}</p>
+        <p>{{ others.rawFood }}</p>
     </section>
 {% endblock %}
