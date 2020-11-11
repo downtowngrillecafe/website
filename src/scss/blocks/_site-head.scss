@@ -86,7 +86,10 @@ h1.primary-subheadline {
 }
 
 span.allergen {
-  display: inline-block;
+  // display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -94,6 +97,7 @@ span.allergen {
   color: #fff;
   border-radius: 50%;
   line-height: 1.9;
+  margin-right: .5rem;
 }
 
 span.allergen:not(:first-child) {
