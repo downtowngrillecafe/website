@@ -84,6 +84,7 @@ h4 {
 
 .item__allergens {
   grid-column: 1 / -1;
+  display: flex;
 }
 
 .item__name,
