@@ -27,5 +27,12 @@ lunch:
 miscellaneous:
   summaryTen: 'Additions'
   summaryEleven: 'Lattes'
+  summaryTwelve: 'Protein Choice'
+  summaryThirteen: 'Bread Options'
+  summaryFourteen: 'Dressings'
+others: 
+  inform: 'Please inform someone of any other food allergies that someone in your party may have. Thank you.'
+  prices: 'Prices subject to change and do not include 9%; New Hampshire meals tax.'
+  rawFood: 'Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of food-borne illness.'
 metaDesc: 'The friendly staff of the Downtown Grille Cafe warmly welcomes guests to our beautiful location in Wolfeboro, New Hampshire. We offer the finest organic and fair-trade gourmet coffee and tea, several gluten-free options, and unique and delicious breakfast and lunch menus.'
 ---
