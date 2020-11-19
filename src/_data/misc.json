@@ -8,7 +8,7 @@
         {
             "name": "Cookies",
             "price": "$4.50",
-            "desc": "Peanut butter chocolate chip, choclate chip"
+            "desc": "Peanut butter chocolate chip, chocolate chip"
         },
         {
             "name": "Soufflés",
@@ -16,7 +16,7 @@
             "desc": "Blueberry, chocolate chip, cranberry orange"
         },
         {
-            "name": "GLUTEN FREE MULTI-TOAST, BAGEL, WRAP, OR ENGLISH MUFFIN",
+            "name": "Gluten free multi-toast, bagel, wrap, or English muffin",
             "price": "$4.50",
             "desc": ""
         }
@@ -91,9 +91,9 @@
         "Balsamic Vinaigrette,",
         "Light Italian,",
         "Bleu Cheese,",
-        "Caesar,", 
+        "Caesar,",
         "Light Honey Dijon,",
-        "Parmesan Peppercorn,", 
+        "Parmesan Peppercorn,",
         "Ranch."
     ],
     "soups_and_salads": [

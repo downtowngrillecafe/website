@@ -2,63 +2,70 @@
 
 {% block content %}
 <div class="menu">
-    <div class="entrees">
+  <div class="entrees">
     <h3 class="section-headline">{{ breakfast.title }}</h3>
     <h4 class="section-headline">{{ breakfast.summary }}</h4>
     {% for wrap in breakfastMenu.wraps %}
     <div class="item">
-        <div class="item__wrapper">
+      <div class="item__wrapper">
         <div class="item__name">{{ wrap.name }}</div>
         <div class="item__price">{{ wrap.price }}</div>
         <div class="item__description">{{ wrap.description }}</div>
         <div class="item__prepared">{{ wrap.prepared }}</div>
         <div class="item__allergens">
-            {% for allergen in wrap.allergens %}
-            <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
-            {% endfor %}
+          {% for allergen in wrap.allergens %}
+          <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
+          {% endfor %}
         </div>
+      </div>
     </div>
-    {% endfor %}
-    </div>
+      {% endfor %}
+
     <div class="extras">
-        <span class="wraps">{{ breakfast.summary }}: {% for bread in breakfastMenu.bread_types %} {{ bread }} {% endfor %}</span>
-        <span class="protein-choice">{{ miscellaneous.summaryTwelve }}: {% for protein in breakfastMenu.protein_choices %} {{ protein }} {% endfor %}</span>
+      <span class="wraps">{{ breakfast.summary }}: {% for bread in breakfastMenu.bread_types %}
+        {{ bread }} {% endfor %}</span>
+      <span class="protein-choice">{{ miscellaneous.summaryTwelve }}:
+        {% for protein in breakfastMenu.protein_choices %} {{ protein }} {% endfor %}</span>
     </div>
 
     <h4>{{ breakfast.summaryTwo }}</h4>
     {% for sandwich in breakfastMenu.breakfast_sandwiches %}
     <div class="item">
-        <div class="item__wrapper">
+      <div class="item__wrapper">
         <div class="item__name">{{ sandwich.name }}</div>
+        <div class="item__price">{{ sandwich.price }}</div>
         <div class="item__description">{{ sandwich.desc }}</div>
         <div class="item__prepared">{{ sandwich.prepared }}</div>
-        <div class="item__price">{{ sandwich.price }}</div>
         <div class="item__allergens">
-        {% for allergen in sandwich.allergens %}
-            <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
-        {% endfor %}
+          {% for allergen in sandwich.allergens %}
+          <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
+          {% endfor %}
         </div>
-        </div>
+      </div>
     </div>
     {% endfor %}
+
     <div class="extras">
-        <span class="bread-options">{{ miscellaneous.summaryThirteen}} *: {% for bread in breakfastMenu.bread_options_two %} {{ bread }}{% endfor %}  - additional charges may apply.</span>
-        <span class="protein-choice">{{ miscellaneous.summaryTwelve }}: {% for protein in breakfastMenu.protein_choices %} {{ protein }} {% endfor %}</span>
+      <span class="bread-options">{{ miscellaneous.summaryThirteen}} *:
+        {% for bread in breakfastMenu.bread_options_two %} {{ bread }}{% endfor %} - additional
+        charges may apply.</span>
+      <span class="protein-choice">{{ miscellaneous.summaryTwelve }}:
+        {% for protein in breakfastMenu.protein_choices %} {{ protein }} {% endfor %}</span>
     </div>
 
     <h4>{{ breakfast.summaryThree }}</h4>
     {% for item in breakfastMenu.eggs_and_omelettes %}
     <div class="item">
-        <div class="item__wrapper">
-            <div class="item__name">{{ item.name }}</div>
-            <div class="item__description">{{ item.desc }}</div>
-            <div class="item__price">{{ item.price }}</div>
-            <div class="item__allergens">
-            {% for allergen in item.allergens %}
-                <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
-            {% endfor %}
-            </div>
+      <div class="item__wrapper">
+        <div class="item__name">{{ item.name }}</div>
+        <div class="item__price">{{ item.price }}</div>
+        <div class="item__description">{{ item.desc }}</div>
+        <div class="item__allergens">
+          {% for allergen in item.allergens %}
+          <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
+          {% endfor %}
         </div>
+      </div>
     </div>
     {% endfor %}
 
@@ -66,122 +73,124 @@
     <h4>{{ lunch.summarySix }}</h4>
     {% for sandwich in lunchMenu.cold_sandwiches %}
     <div class="item">
-        <div class="item__wrapper">
-            <div class="item__name">{{ sandwich.name }}</div>
-            <div class="item__description">{{ sandwich.desc }}</div>
-            <div class="item__price">{{ sandwich.price }}</div>
-            <div class="item__allergens">
-                {% for allergen in sandwich.allergens %}
-                <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
-                {% endfor %}
-            </div>
+      <div class="item__wrapper">
+        <div class="item__name">{{ sandwich.name }}</div>
+        <div class="item__price">{{ sandwich.price }}</div>
+        <div class="item__description">{{ sandwich.desc }}</div>
+        <div class="item__allergens">
+          {% for allergen in sandwich.allergens %}
+          <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
+          {% endfor %}
         </div>
+      </div>
     </div>
     {% endfor %}
 
     <h4>{{ lunch.summarySeven }}</h4>
     {% for sandwich in lunchMenu.hot_sandwiches %}
     <div class="item">
-        <div class="item__wrapper">
-            <div class="item__name">{{ sandwich.name }}</div>
-            <div class="item__description">{{ sandwich.desc }}</div>
-            <div class="item__price">{{ sandwich.price }}</div>
-            <div class="item__allergens">
-                {% for allergen in sandwich.allergens %}
-                <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
-                {% endfor %}
-            </div>
+      <div class="item__wrapper">
+        <div class="item__name">{{ sandwich.name }}</div>
+        <div class="item__price">{{ sandwich.price }}</div>
+        <div class="item__description">{{ sandwich.desc }}</div>
+        <div class="item__allergens">
+          {% for allergen in sandwich.allergens %}
+          <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
+          {% endfor %}
         </div>
+      </div>
     </div>
     {% endfor %}
-    
-    <div class="sides">
+  </div>
+
+  <div class="sides">
     <h3 class="sidebar">{{ breakfast.summaryFour }}</h3>
-    {% for good in misc.baked_goods %}
-    <div class="item">
+      {% for good in misc.baked_goods %}
+      <div class="item">
         <div class="item__wrapper">
-        <div class="item__name">{{ good.name }}</div>
-        <div class="item__description">{{ good.desc }}</div>
-        <div class="item__price">{{ good.price }}</div>
+          <div class="item__name">{{ good.name }}</div>
+          <div class="item__description">{{ good.desc }}</div>
+          <div class="item__price">{{ good.price }}</div>
         </div>
-    </div>
-    {% endfor %}
+      </div>
+      {% endfor %}
 
     <h3 class="sidebar">{{ breakfast.summaryFive }}</h3>
-    {% for item in misc.waffles_and_more %}
-    <div class="item">
+      {% for item in misc.waffles_and_more %}
+      <div class="item">
         <div class="item__wrapper">
-            <div class="item__name">{{ item.name }}</div>
-            <div class="item__description">{{ item.desc }}</div>
-            <div class="item__price">{{ item.price }}</div>
-            <div class="item__allergens">
+          <div class="item__name">{{ item.name }}</div>
+          <div class="item__description">{{ item.desc }}</div>
+          <div class="item__price">{{ item.price }}</div>
+          <div class="item__allergens">
             {% for allergen in item.allerges %}
-                <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
+            <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
             {% endfor %}
-            </div>
+          </div>
         </div>
-    </div>
-    {% endfor %}
+      </div>
+      {% endfor %}
 
     <h3 class="sidebar">{{ lunch.summaryEight }}</h3>
-    {% for side in misc.sides %}
-    <div class="item">
+      {% for side in misc.sides %}
+      <div class="item">
         <div class="item__wrapper">
-        <div class="item__name">{{ side.name }}</div>
-        {% if side.price_option %}
-            <div class="item__description">Small: {{ side.price_option.side }}</div>
-            <div class="item__description">Large: {{ side.price_option.large }}</div>
-        {% endif %}
-            <div class="item__description">{{ side.price }}</div>
+          <div class="item__name">{{ side.name }}</div>
+          {% if side.price_option %}
+          <div class="item__description">Small: {{ side.price_option.side }}</div>
+          <div class="item__description">Large: {{ side.price_option.large }}</div>
+          {% endif %}
+          <div class="item__description">{{ side.price }}</div>
         </div>
-    </div>
-    {% endfor %}
+      </div>
+      {% endfor %}
 
-    <div class="extras">
+      <div class="extras">
         <p>{{ miscellaneous.summaryFourteen }}:
-        {% for dressing in misc.dressings %}
+          {% for dressing in misc.dressings %}
             {{ dressing }}
-        {% endfor %}
+          {% endfor %}
         </p>
-    </div>
-    
+      </div>
+
     <h3 class="sidebar">{{ lunch.summaryNine }}</h3>
-    {% for side in misc.soups_and_salads %}
-    <div class="item">
+      {% for side in misc.soups_and_salads %}
+      <div class="item">
         <div class="item__wrapper">
-            <div class="item__name">{{ side.name }}</div>
-            <div class="item__description">{{ side.desc }}</div>
-            <div class="item__price">{{ side.price }}</div>
+          <div class="item__name">{{ side.name }}</div>
+          <div class="item__description">{{ side.desc }}</div>
+          <div class="item__price">{{ side.price }}</div>
         </div>
-    </div>
-    {% endfor %}
-    
+      </div>
+      {% endfor %}
+
     <h3 class="sidebar">{{ miscellaneous.summaryTen }}</h3>
-    {% for extra in misc.additions %}
-        <div class="item">
-            <div class="item__wrapper">
-                <div class="item__name">{{ extra.name }}</div>
-                <div class="item__price">{{ extra.price }}</div>
-            </div>
+      {% for extra in misc.additions %}
+      <div class="item">
+        <div class="item__wrapper">
+          <div class="item__name">{{ extra.name }}</div>
+          <div class="item__price">{{ extra.price }}</div>
         </div>
-    {% endfor %}
+      </div>
+      {% endfor %}
 
     <h3 class="sidebar">{{ miscellaneous.summaryEleven }}</h3>
-    {% for drink in misc.lattes %}
-        <div class="item">
-            <div class="item__wrapper">
-                <div class="item__name">{{ drink.name }}</div>
-                <div class="item__description">{{ drink.desc }}</div>
-                <div class="item__price">{{ drink.price }}</div>
-            </div>
+      {% for drink in misc.lattes %}
+      <div class="item">
+        <div class="item__wrapper">
+          <div class="item__name">{{ drink.name }}</div>
+          <div class="item__description">{{ drink.desc }}</div>
+          <div class="item__price">{{ drink.price }}</div>
         </div>
-    {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
 
     <button class="menu-download"><a href="#">{{ intro.buttonText }}</a></button>
-</div>
+
     <section id="others">
-        <p>{{ others.inform }}</p>
-        <p>{{ others.prices }}</p>
-        <p>{{ others.rawFood }}</p>
+      <p>{{ others.inform }}</p>
+      <p>{{ others.prices }}</p>
+      <p>{{ others.rawFood }}</p>
     </section>
-{% endblock %}
+    {% endblock %}

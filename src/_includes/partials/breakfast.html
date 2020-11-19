@@ -9,7 +9,6 @@
       <div class="item__description">{{ wrap.description }}</div>
       <div class="item__prepared">{{ wrap.prepared }}</div>
       <div class="item__allergens">
-        <!-- iterate the allergens array in global data and use my homeade check filter -->
         {% for allergen in wrap.allergens %}
         <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
         {% endfor %}

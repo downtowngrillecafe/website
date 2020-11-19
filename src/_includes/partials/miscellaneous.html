@@ -1,23 +1,26 @@
-<h3 class="sidebar">{{ miscellaneous.summaryTen }}</h3>
-<div class="item">
-  <div class="item__wrapper">
-    <div class="item__name">{{ item.name }}</div>
-    <div class="item__description">{{ item.description }}</div>
-    <div class="item__price">{{ item.price }}</div>
+<div class="sides">
+  <h3 class="sidebar">{{ lunch.summaryEight }}</h3>
+  <h3 class="sidebar">{{ lunch.summaryNine }}</h3>
+  <h3 class="sidebar">{{ miscellaneous.summaryTen }}</h3>
+  <div class="item">
+    <div class="item__wrapper">
+      <div class="item__name">{{ item.name }}</div>
+      <div class="item__description">{{ item.description }}</div>
+      <div class="item__price">{{ item.price }}</div>
+    </div>
   </div>
-</div>
 
-<h3 class="sidebar">{{ miscellaneous.summaryEleven }}</h3>
-<div class="item">
-  <div class="item__wrapper">
-    <div class="item__name">{{ item.name }}</div>
-    <div class="item__description">{{ item.description }}</div>
-    <div class="item__price">{{ item.price }}</div>
+  <h3 class="sidebar">{{ miscellaneous.summaryEleven }}</h3>
+  <div class="item">
+    <div class="item__wrapper">
+      <div class="item__name">{{ item.name }}</div>
+      <div class="item__description">{{ item.description }}</div>
+      <div class="item__price">{{ item.price }}</div>
+    </div>
   </div>
-</div>
 
-{% for item in menu %}
+  {% for item in menu %}
 
-{% endfor %}
+  {% endfor %}
 
 </div>
