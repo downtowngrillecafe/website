@@ -4,7 +4,7 @@
 <div class="menu">
   <div class="entrees">
     <h3 class="section-headline">{{ breakfast.title }}</h3>
-    <h4 class="section-headline">{{ breakfast.summary }}</h4>
+    <h4 class="section-subheadline">{{ breakfast.summary }}</h4>
     {% for wrap in breakfastMenu.wraps %}
     <div class="item">
       <div class="item__wrapper">
@@ -19,7 +19,7 @@
         </div>
       </div>
     </div>
-      {% endfor %}
+    {% endfor %}
 
     <div class="extras">
       <span class="wraps">{{ breakfast.summary }}: {% for bread in breakfastMenu.bread_types %}
@@ -28,7 +28,7 @@
         {% for protein in breakfastMenu.protein_choices %} {{ protein }} {% endfor %}</span>
     </div>
 
-    <h4>{{ breakfast.summaryTwo }}</h4>
+    <h4 class="section-subheadline">{{ breakfast.summaryTwo }}</h4>
     {% for sandwich in breakfastMenu.breakfast_sandwiches %}
     <div class="item">
       <div class="item__wrapper">
@@ -53,7 +53,7 @@
         {% for protein in breakfastMenu.protein_choices %} {{ protein }} {% endfor %}</span>
     </div>
 
-    <h4>{{ breakfast.summaryThree }}</h4>
+    <h4 class="section-subheadline">{{ breakfast.summaryThree }}</h4>
     {% for item in breakfastMenu.eggs_and_omelettes %}
     <div class="item">
       <div class="item__wrapper">
@@ -69,8 +69,8 @@
     </div>
     {% endfor %}
 
-    <h3>{{ lunch.title }}</h3>
-    <h4>{{ lunch.summarySix }}</h4>
+    <h3 class="section-headline">{{ lunch.title }}</h3>
+    <h4 class="section-subheadline">{{ lunch.summarySix }}</h4>
     {% for sandwich in lunchMenu.cold_sandwiches %}
     <div class="item">
       <div class="item__wrapper">
@@ -86,7 +86,7 @@
     </div>
     {% endfor %}
 
-    <h4>{{ lunch.summarySeven }}</h4>
+    <h4 class="section-subheadline">{{ lunch.summarySeven }}</h4>
     {% for sandwich in lunchMenu.hot_sandwiches %}
     <div class="item">
       <div class="item__wrapper">
@@ -104,7 +104,7 @@
   </div>
 
   <div class="sides">
-    <h3 class="sidebar">{{ breakfast.summaryFour }}</h3>
+    <h3 class="sidebar big">{{ breakfast.summaryFour }}</h3>
       {% for good in misc.baked_goods %}
       <div class="item">
         <div class="item__wrapper">

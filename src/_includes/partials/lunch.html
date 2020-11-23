@@ -1,5 +1,5 @@
-<h3>{{ lunch.title }}</h3>
-<h4>{{ lunch.summary }}</h4>
+<h3 class="section-headline">{{ lunch.title }}</h3>
+<h4 class="primary-subheadline">{{ lunch.summary }}</h4>
 {% for item in lunchMenu.cold_sandwiches %}
 <div class="item">
   <div class="item__wrapper">
@@ -13,7 +13,7 @@
       {% endfor %}
     </div>
 
-    <h4>{{ lunch.summarySix }}</h4>
-    <h4>{{ lunch.summarySeven }}</h4>
+    <h4 class="primary-subheadline">{{ lunch.summarySix }}</h4>
+    <h4 class="primary-subheadline">{{ lunch.summarySeven }}</h4>
   </div>
 </div>
