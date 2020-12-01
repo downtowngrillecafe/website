@@ -54,6 +54,12 @@
                 "dairy",
                 "eggs"
             ]
+        },
+        {
+            "name": "",
+            "desc": "",
+            "prepared": "",
+            "price": ""
         }
     ],
     "bread_types": [
@@ -89,7 +95,7 @@
             "desc": "Two (2) fried eggs, American cheese & choice or baby spinach on a grilled croissant.",
             "prepared": "Grilled",
             "allergens": [
-                "daisy",
+                "dairy",
                 "eggs"
             ]
         }
