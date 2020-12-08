@@ -56,6 +56,12 @@
                 "dairy",
                 "shellfish"
             ]
+        },
+        {
+            "name": "",
+            "desc": "",
+            "prepared": "",
+            "price": ""
         }
     ],
     "hot_sandwiches": [
@@ -162,6 +168,5 @@
                 "dairy"
             ]
         }
-        
     ]
 }
