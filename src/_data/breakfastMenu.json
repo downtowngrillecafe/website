@@ -1,201 +1,241 @@
 {
-    "wraps": [
-        {
-            "name": "Egg Simple",
-            "description": "One (1) egg your way with American cheese in a delicious wrap.",
-            "prepared": "Grilled",
-            "price": "$4.25",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "Garden Wrap",
-            "description": "Two (2) scrambled eggs, American cheese, tomatoes, sautéed mushrooms, green onions and baby spinach in a wrap.",
-            "prepared": "Grilled",
-            "price": "$7.00",
-            "allergens": ["eggs", "dairy", "wheat"]
-        },
-        {
-            "name": "Market Wrap",
-            "description": "Two (2) scrambled eggs, Cheddar cheese, sausage patty, green onions, peppers and sautéed mushrooms in a wrap.",
-            "prepared": "Grilled",
-            "price": "$7.25",
-            "allergens": ["eggs", "dairy", "wheat"]
-        },
-        {
-            "name": "Southwest Wrap",
-            "description": "Two (2) scrambled eggs, Pepper Jack cheese, black bean & corn relish, salsa & green onions in a wrap.",
-            "prepared": "Grilled",
-            "price": "$6.50",
-            "allergens": ["eggs", "dairy"]
-        },
-        {
-            "name": "Flat Wrap Benny",
-            "description": "Two (2) poached eggs, Hollandaise sauce & our own corned beef hash in a wrap.",
-            "prepared": "Grilled",
-            "price": "$8.00",
-            "allergens": ["eggs", "dairy"]
-        },
-        {
-            "name": "Flat Wrap Benny w/Hash",
-            "description": "Two (2) poached eggs, Hollandaise sauce & our own corned beef hash in a wrap.",
-            "prepared": "Grilled",
-            "price": "$8.50",
-            "allergens": ["eggs", "dairy"]
-        },
-        {
-            "name": "Corned Beef Hash W/Eggs & Cheese",
-            "desc": "Two (2) fried eggs, our own corned beef hash, cheese in a wrap.",
-            "prepared": "Grilled",
-            "price": "$7.75",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "",
-            "desc": "",
-            "prepared": "",
-            "price": ""
-        }
-    ],
-    "bread_types": [
-        "Plain,", "Wheat,", "Tomato,", "Spinach,", "Garlic & Herb,", "Gluten Free,", "or Low-Carb."
-    ],
-    "protein_choices": [
-        "Bacon,", "Sausage Patty,", "Ham,", "Spinach & Tomato,", "or Portabello Mushroom."
-    ],
-    "breakfast_sandwiches": [
-        {
-            "name": "Egg Sandwich",
-            "price": "$5.25",
-            "desc": "One (1) fried egg with American cheese & choice of protein on a Ciabatta roll.",
-            "prepared": "Made to Order",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "Iggy's Breakfast Special",
-            "price": "$7.00",
-            "desc": "One (1) fried egg, Provolone cheese, lettuce, tomato, mayonnaise & choice of protein on a grilled deli roll.",
-            "prepared": "Grilled",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "Croissant Sandwich",
-            "price": "$7.50",
-            "desc": "Two (2) fried eggs, American cheese & choice or baby spinach on a grilled croissant.",
-            "prepared": "Grilled",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "",
-            "desc": "",
-            "prepared": "",
-            "price": ""
-        }
-    ],
-    "bread_options_two": [
-        "White,", "Wheat,", "Rye,", "English Muffin,", "Bagel,", "or Gluten Free Options. *"
-    ],
-    "eggs_and_omelettes": [
-        {
-            "name": "Eggs & Toast",
-            "price": "$4.25",
-            "desc": "One (1) egg your way & a choice of toast. Add protein: + $3.25",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "Eggs & Toast",
-            "price": "$5.75",
-            "desc": "Two (2) eggs your way & choice of toast. Add protein: + $3.25",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "Corned Beef Hash & Eggs",
-            "price": "$7.75",
-            "desc": "Our own crispy corned beef hash, 2 eggs your way served with toast.",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "Eggs Benedict",
-            "price": "$8.00",
-            "desc": "2 poached eggs with Hollandaise sauce, choice of protein or baby spinach & fresh tomato on a toasted English Muffin.",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "Corned Beef Hash Benedict",
-            "price": "$8.25",
-            "desc": "2 poached eggs on an English Muffin topped with our own corned beef hash & Hollandaise sauce.",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "Cheese Omelette",
-            "price": "$7.00",
-            "desc": "2 extra large eggs and cheese served with toast. Additional priced fillings: Baby spinach, tomato, mushroom, onions, sausage patty, bacon, ham, corned beef hash.",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "Market Omelette",
-            "price": "$7.00",
-            "desc": "2 extra large eggs, Cheddar cheese, sausage patty, green onions, peppers, sautéed mushrooms served with toast.",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "Garden Omelette",
-            "price": "$7.75",
-            "desc": "2 extra large eggs, cheese, tomato, sautéed mushrooms, green onions & baby spinach served with toast.",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "Western Omelette",
-            "price": "$8.50",
-            "desc": "2 extra large eggs, ham, Swiss cheese, peppers & onions served with toast.",
-            "allergens": [
-                "dairy",
-                "eggs"
-            ]
-        },
-        {
-            "name": "",
-            "desc": "",
-            "prepared": "",
-            "price": ""
-        }
-    ]
+  "wraps": [
+    {
+      "name": "Egg Simple",
+      "description": "One (1) egg your way with American cheese in a delicious wrap.",
+      "prepared": "Grilled",
+      "price": "$4.25",
+      "allergens": [
+        "eggs",
+        "dairy",
+        "wheat"
+      ]
+    },
+    {
+      "name": "Garden Wrap",
+      "description": "Two (2) scrambled eggs, American cheese, tomatoes, sautéed mushrooms, green onions and baby spinach in a wrap.",
+      "prepared": "Grilled",
+      "price": "$7.00",
+      "allergens": [
+        "eggs",
+        "dairy",
+        "wheat"
+      ]
+    },
+    {
+      "name": "Market Wrap",
+      "description": "Two (2) scrambled eggs, Cheddar cheese, sausage patty, green onions, peppers and sautéed mushrooms in a wrap.",
+      "prepared": "Grilled",
+      "price": "$7.25",
+      "allergens": [
+        "eggs",
+        "dairy",
+        "wheat"
+      ]
+    },
+    {
+      "name": "Southwest Wrap",
+      "description": "Two (2) scrambled eggs, Pepper Jack cheese, black bean & corn relish, salsa & green onions in a wrap.",
+      "prepared": "Grilled",
+      "price": "$6.50",
+      "allergens": [
+        "eggs",
+        "dairy",
+        "wheat"
+      ]
+    },
+    {
+      "name": "Flat Wrap Benny",
+      "description": "Two (2) poached eggs, Hollandaise sauce & our own corned beef hash in a wrap.",
+      "prepared": "Grilled",
+      "price": "$8.00",
+      "allergens": [
+        "eggs",
+        "dairy",
+        "wheat"
+      ]
+    },
+    {
+      "name": "Flat Wrap Benny w/Hash",
+      "description": "Two (2) poached eggs, Hollandaise sauce & our own corned beef hash in a wrap.",
+      "prepared": "Grilled",
+      "price": "$8.50",
+      "allergens": [
+        "eggs",
+        "dairy",
+        "wheat"
+      ]
+    },
+    {
+      "name": "Corned Beef Hash W/Eggs & Cheese",
+      "desc": "Two (2) fried eggs, our own corned beef hash, cheese in a wrap.",
+      "prepared": "Grilled",
+      "price": "$7.75",
+      "allergens": [
+        "eggs",
+        "dairy",
+        "wheat"
+      ]
+    },
+    {
+      "name": "",
+      "desc": "",
+      "prepared": "",
+      "price": ""
+    }
+  ],
+  "bread_types": [
+    "Plain,",
+    "Wheat,",
+    "Tomato,",
+    "Spinach,",
+    "Garlic & Herb,",
+    "Gluten Free,",
+    "or Low-Carb."
+  ],
+  "protein_choices": [
+    "Bacon,",
+    "Sausage Patty,",
+    "Ham,",
+    "Spinach & Tomato,",
+    "or Portabello Mushroom."
+  ],
+  "breakfast_sandwiches": [
+    {
+      "name": "Egg Sandwich",
+      "price": "$5.25",
+      "desc": "One (1) fried egg with American cheese & choice of protein on a Ciabatta roll.",
+      "prepared": "Made to Order",
+      "allergens": [
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "name": "Iggy's Breakfast Special",
+      "price": "$7.00",
+      "desc": "One (1) fried egg, Provolone cheese, lettuce, tomato, mayonnaise & choice of protein on a grilled deli roll.",
+      "prepared": "Grilled",
+      "allergens": [
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "name": "Croissant Sandwich",
+      "price": "$7.50",
+      "desc": "Two (2) fried eggs, American cheese & choice or baby spinach on a grilled croissant.",
+      "prepared": "Grilled",
+      "allergens": [
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "name": "",
+      "desc": "",
+      "prepared": "",
+      "price": ""
+    }
+  ],
+  "bread_options_two": [
+    "White,",
+    "Wheat,",
+    "Rye,",
+    "English Muffin,",
+    "Bagel,",
+    "or Gluten Free Options. *"
+  ],
+  "eggs_and_omelettes": [
+    {
+      "name": "Eggs & Toast",
+      "price": "$4.25",
+      "desc": "One (1) egg your way & a choice of toast. Add protein: + $3.25",
+      "allergens": [
+        "dairy",
+        "eggs",
+        "wheat"
+      ]
+    },
+    {
+      "name": "Eggs & Toast",
+      "price": "$5.75",
+      "desc": "Two (2) eggs your way & choice of toast. Add protein: + $3.25",
+      "allergens": [
+        "dairy",
+        "eggs",
+        "wheat"
+      ]
+    },
+    {
+      "name": "Corned Beef Hash & Eggs",
+      "price": "$7.75",
+      "desc": "Our own crispy corned beef hash, 2 eggs your way served with toast.",
+      "allergens": [
+        "dairy",
+        "eggs",
+        "wheat"
+      ]
+    },
+    {
+      "name": "Eggs Benedict",
+      "price": "$8.00",
+      "desc": "2 poached eggs with Hollandaise sauce, choice of protein or baby spinach & fresh tomato on a toasted English Muffin.",
+      "allergens": [
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "name": "Corned Beef Hash Benedict",
+      "price": "$8.25",
+      "desc": "2 poached eggs on an English Muffin topped with our own corned beef hash & Hollandaise sauce.",
+      "allergens": [
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "name": "Cheese Omelette",
+      "price": "$7.00",
+      "desc": "2 extra large eggs and cheese served with toast. Additional priced fillings: Baby spinach, tomato, mushroom, onions, sausage patty, bacon, ham, corned beef hash.",
+      "allergens": [
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "name": "Market Omelette",
+      "price": "$7.00",
+      "desc": "2 extra large eggs, Cheddar cheese, sausage patty, green onions, peppers, sautéed mushrooms served with toast.",
+      "allergens": [
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "name": "Garden Omelette",
+      "price": "$7.75",
+      "desc": "2 extra large eggs, cheese, tomato, sautéed mushrooms, green onions & baby spinach served with toast.",
+      "allergens": [
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "name": "Western Omelette",
+      "price": "$8.50",
+      "desc": "2 extra large eggs, ham, Swiss cheese, peppers & onions served with toast.",
+      "allergens": [
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "name": "",
+      "desc": "",
+      "prepared": "",
+      "price": ""
+    }
+  ]
 }

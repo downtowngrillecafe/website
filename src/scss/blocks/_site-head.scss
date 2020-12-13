@@ -77,7 +77,6 @@ h1.primary-subheadline {
 /*** Special Announcements ***/
 
 .specials {
-  // Use semantic class names based on what you are doing with the text.
   background-color: #f8c954;
   border: 6px solid #0b132b;
   border-width: 6px 0 6px;
@@ -86,18 +85,14 @@ h1.primary-subheadline {
 }
 
 span.allergen {
-  // display: inline-block;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 36px;
   height: 36px;
   border: 3px solid #000;
-  text-align: center;
-  font: 900 1.5rem 'Crimson Pro';
   color: #fff;
   border-radius: 50%;
-  line-height: 1.9;
   margin-right: .5rem;
 }
 
@@ -164,15 +159,15 @@ span.allergen.nuts {
 }
 
 .legend__item i {
-  display: inline-block;
+  display: inline;
   width: 30px;
   height: 30px;
-  line-height: 30px; // to vertically center text, make the line height equal to the element height
-  font-size: 1.4rem;
-  font-weight: 400;
+  line-height: 26px;
+  font-weight: 900;
   text-align: center;
   color: hsla(255, 100%, 100%, 1.0);
   border-radius: 50%;
+  border: 3px solid #000;
 }
 
 .legend__item:nth-child(1) {

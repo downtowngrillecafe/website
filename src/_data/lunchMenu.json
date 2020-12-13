@@ -27,17 +27,15 @@
         {
             "name": "The Classic BLT",
             "price": "$8.00",
-            "desc": "The classic bacon, lettuce, tomato sandwich on toasted hearty white bread.",
-            "allergens": [
-                ""
-            ]
+            "desc": "The classic bacon, lettuce, tomato sandwich on toasted hearty white bread."
         },
         {
             "name": "Chicken Salad",
             "price": "$8.00",
             "desc": "Chicken, mayonnaise, celery & lettuce on your choice of bread.",
             "allergens": [
-                "dairy"
+                "dairy",
+                "wheat"
             ]
         },
         {
@@ -45,7 +43,8 @@
             "price": "$8.00",
             "desc": "A classic egg salad with mayonnaise & lettuce on your choice of bread.",
             "allergens": [
-                "dairy"
+                "dairy",
+                "wheat"
             ]
         },
         {
@@ -54,7 +53,8 @@
             "desc": "Tuna, mayonnaise, celery & lettuce on your choice of bread.",
             "allergens": [
                 "dairy",
-                "shellfish"
+                "fish",
+                "wheat"
             ]
         },
         {
@@ -70,7 +70,8 @@
             "price": "$12.00",
             "desc": "Chicken breast, Brie cheese, baby spinach, and basil pesto on a cheese ciabatta.",
             "allergens": [
-                "dairy"
+                "dairy",
+                "nuts"
             ]
         },
         {
@@ -87,7 +88,8 @@
             "desc": "Portobello mushroom, spinach, peppers, tomato, onion, and Bleu cheese on a grilled wrap",
             "prepared": "Grilled",
             "allergens": [
-                "dairy"
+                "dairy",
+                "wheat"
             ]
         },
         {
@@ -112,6 +114,7 @@
             "price": "$11.50",
             "desc": "Fresh roasted turkey, bacon, avocado, baby spinach, Mozzarella. (May contain pine nuts)",
             "allergens": [
+                "dairy",
                 "nuts"
             ]
         },
@@ -156,7 +159,8 @@
             "desc": "Four cheeses, tomato & basil pesto on hearty white. (May contain pine nuts) Add ham or bacon: + $3.25",
             "preapred": "Grilled",
             "allergens": [
-                "dairy"
+                "dairy",
+                "nuts"
             ]
         },
         {

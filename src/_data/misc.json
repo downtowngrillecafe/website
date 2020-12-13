@@ -3,7 +3,10 @@
         {
             "name": "Muffins",
             "price": "$3.00",
-            "desc": "Blueberry, coffee cake, triple berry, chocolate chip, pistachio, bran, corn, cranberry orange."
+            "desc": "Blueberry, coffee cake, triple berry, chocolate chip, pistachio, bran, corn, cranberry orange.",
+            "allergens": [
+                "nuts"
+            ]
         },
         {
             "name": "Cookies",
@@ -18,7 +21,7 @@
         {
             "name": "Gluten free multi-toast, bagel, wrap, or English muffin",
             "price": "$4.50",
-            "desc": ""
+            "desc": "Your choice of a gluten free multi-toast bagel, wrap, or English muffin"
         }
     ],
     "waffles_and_more": [
