@@ -146,6 +146,11 @@ em.or {
     grid-column: 4 / 5;
     grid-row: 5 / 6;
   }
+
+  .menu .order-online {
+    grid-column: 4 / 5;
+    grid-row: 6 / 6;
+  }
 }
 
 @media (min-width: 550px) {
@@ -309,28 +314,47 @@ em.or {
 
 button.menu-download {
   display: block;
-  background: hsla(43, 92%, 65%, 1.0);
+  background: rgb(255, 211, 98);
   text-align: center;
   color: hsla(0, 0%, 0%, 1.0);
   text-transform: uppercase;
   padding: 1rem;
   cursor: pointer;
-  border: none;
+  border: 3px solid black;
 }
 
 button.menu-download:hover,
-button.menu-download:focus {
+button.menu-download:focus,
+button.order-online:hover,
+button.order-online:focus {
   background: #0b132b;
   color: hsla(255, 100%, 100%, 1.0);
 }
 
-button.menu-download a {
+button.menu-download a,
+button.order-online a {
   text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 900;
 }
 
-@media (min-width: 550px) {
-  button.menu-download {
+button.order-online {
+  display: block;
+  background: rgb(255, 211, 98);
+  text-align: center;
+  color: hsla(0, 0%, 0%, 1.0);
+  text-transform: uppercase;
+  padding: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border: 3px solid black;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  button.menu-download,
+  button.order-online {
     padding: 2rem 4rem;
     border: none;
+    width: 100vw;
   }
 }

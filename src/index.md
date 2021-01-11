@@ -6,6 +6,7 @@ intro:
   main: '33 South Main Street  Wolfeboro, N.H. 603-569-4504'
   summary: 'TBD'
   buttonText: 'Download Our Menu'
+  orderOnline: 'Order Online'
   buttonUrl: '/menu'
   image: '/images/logo.png'
   imageAlt: 'DowntownGrille Cafe logo a ship with a brown sail and a blue sail.'
@@ -30,7 +31,7 @@ miscellaneous:
   summaryTwelve: 'Protein Choice'
   summaryThirteen: 'Bread Options'
   summaryFourteen: 'Dressings'
-others: 
+others:
   inform: 'Please inform someone of any other food allergies that someone in your party may have. Thank you.'
   prices: 'Prices subject to change and do not include 9%; New Hampshire meals tax.'
   rawFood: 'Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of food-borne illness.'
