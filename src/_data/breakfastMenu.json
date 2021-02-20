@@ -114,7 +114,7 @@
     {
       "name": "Iggy's Breakfast Special",
       "price": "$7.00",
-      "desc": "One (1) fried egg, Provolone cheese, lettuce, tomato, mayonnaise & choice of protein on a grilled deli roll.",
+      "desc": "One (1) fried egg, American cheese, lettuce, tomato, mayonnaise & choice of protein on a grilled deli roll.",
       "prepared": "Grilled",
       "allergens": [
         "dairy",
@@ -124,7 +124,7 @@
     {
       "name": "Croissant Sandwich",
       "price": "$7.50",
-      "desc": "Two (2) fried eggs, American cheese & choice or baby spinach on a grilled croissant.",
+      "desc": "Two (2) fried eggs, American cheese & choice of protein or baby spinach on a grilled croissant.",
       "prepared": "Grilled",
       "allergens": [
         "dairy",
