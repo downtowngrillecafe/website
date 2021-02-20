@@ -325,7 +325,8 @@ span.allergen.nuts {
 
 .legend {
   background: #fdfdfc;
-  flex-direction: row
+  flex-direction: row;
+  padding: 0 1rem;
 }
 
 @media (min-width:320px) and (max-width:375px) {
