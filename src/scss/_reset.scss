@@ -171,6 +171,10 @@ q:before {
   outline: none;
 }
 
+*:focus {
+  outline: 2px solid ##F8C954;
+}
+
 /*** Screen reader ***/
 
 .sr-only {
