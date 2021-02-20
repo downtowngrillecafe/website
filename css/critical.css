@@ -203,7 +203,7 @@ header {
 
 .logo {
   display: grid;
-  grid: minmax(100px, min-content)/repeat(auto-fill, 250px);
+  grid: minmax(100%, min-content)/repeat(auto-fill, 100%);
   grid-column: span 3;
   justify-content: center
 }
