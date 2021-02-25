@@ -34,17 +34,6 @@
       ]
     },
     {
-      "name": "Southwest Wrap",
-      "description": "Two (2) scrambled eggs, Pepper Jack cheese, black bean & corn relish, salsa & green onions in a wrap.",
-      "prepared": "Grilled",
-      "price": "$6.50",
-      "allergens": [
-        "eggs",
-        "dairy",
-        "wheat"
-      ]
-    },
-    {
       "name": "Flat Wrap Benny",
       "description": "Two (2) poached eggs, Hollandaise sauce & our own corned beef hash in a wrap.",
       "prepared": "Grilled",
@@ -76,12 +65,6 @@
         "dairy",
         "wheat"
       ]
-    },
-    {
-      "name": "",
-      "desc": "",
-      "prepared": "",
-      "price": ""
     }
   ],
   "bread_types": [
