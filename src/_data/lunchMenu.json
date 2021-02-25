@@ -68,7 +68,7 @@
         {
             "name": "Chicken & Brie Panini",
             "price": "$12.00",
-            "desc": "Chicken breast, Brie cheese, baby spinach, and basil pesto on a cheese ciabatta.",
+            "desc": "Chicken breast, Brie cheese, baby spinach, and basil pesto on a cheese Ciabatta.",
             "allergens": [
                 "dairy",
                 "nuts"
@@ -121,7 +121,7 @@
         {
             "name": "Ham & Pepper Jack Panini",
             "price": "$9.75",
-            "desc": "Ham, Pepper Jack Cheese, bacon & horseradish sauce on a grilled ciabatta roll.",
+            "desc": "Ham, Pepper Jack cheese, bacon & horseradish sauce on a grilled Ciabatta roll.",
             "prepared": "Grilled",
             "allergens": [
                 "dairy"
@@ -148,7 +148,7 @@
         {
             "name": "Turkey Reuben Grille",
             "price": "$9.00",
-            "desc": "Fresh roasted turkey, sauerkraut, bistro sauce, Pepper Jack cheese & Swiss cheese in a garlic & herb wrap.",
+            "desc": "Fresh roasted turkey, sauerkraut, bistro sauce, Pepper Jack & Swiss cheese in a garlic & herb wrap.",
             "allergens": [
                 "dairy"
             ]

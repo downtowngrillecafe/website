@@ -11,17 +11,17 @@
         {
             "name": "Cookies",
             "price": "$4.50",
-            "desc": "Peanut butter chocolate chip, chocolate chip"
+            "desc": "Peanut Butter, Chocolate Chip, Molasses, Oatmeal, Heath Bar&trade;"
         },
         {
             "name": "Scones",
             "price": "$5.00",
-            "desc": "Blueberry, chocolate chip, cranberry orange"
+            "desc": "Blueberry, Apple Cinnamon, Raspberry White Chocolate"
         },
         {
-            "name": "Gluten free multi-toast, bagel, wrap, or English muffin",
+            "name": "Gluten free deli roll, bagel, wrap, or English muffin",
             "price": "$4.50",
-            "desc": "Your choice of a gluten free multi-toast bagel, wrap, or English muffin"
+            "desc": "Your choice of a gluten free deli roll, bagel, wrap, or English muffin"
         }
     ],
     "waffles_and_more": [
