@@ -220,7 +220,7 @@ h1.primary-subheadline {
   background: #fdfdfc;
   text-transform: uppercase;
   padding: 2rem 1.6rem 0 1.6rem;
-  align-self: center
+  align-self: center;
 }
 
 @media (min-width:550px) and (max-width:768px) {
