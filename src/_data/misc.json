@@ -135,6 +135,12 @@
             "price": "MKT$"
         }
     ],
+    "prices_by_size": [
+      "small (price shown),",
+      "medium (+ $.25),",
+      "large (+ $.50),",
+      "extra-large (+ $.75)"
+    ],
     "lattes": [
         {
             "name": "Americano",
@@ -186,11 +192,5 @@
             "price": "$3.25",
             "desc": "Fresh roasted coffee with a side of steamed milk."
         }
-    ],
-    "prices_by_size": [
-      "small (price shown),",
-      "medium (+ $.25),",
-      "large (+ $.50),",
-      "extra-large (+ $.75)"
     ]
 }
