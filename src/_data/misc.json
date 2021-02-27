@@ -20,7 +20,7 @@
         },
         {
             "name": "Gluten free deli roll, bagel, wrap, or English muffin",
-            "price": "$4.50",
+            "price": "$2.00",
             "desc": "Your choice of a gluten free deli roll, bagel, wrap, or English muffin"
         }
     ],
@@ -174,7 +174,7 @@
         {
             "name": "Capuccino",
             "price": "$3.50",
-            "desc": "Espresso and steamed milk foam. Iced: $4.75"
+            "desc": "Espresso and steamed milk foam."
         },
         {
             "name": "Espresso",
@@ -194,7 +194,7 @@
         {
             "name": "Shot in the dark",
             "price": "$3.50",
-            "desc": ""
+            "desc": "Espresso shot with coffee."
         },
         {
             "name": "Chai Latte",
@@ -204,7 +204,7 @@
         {
             "name": "Dirty Chai Latte",
             "price": "$4.50",
-            "desc": "Chai spice and steamed milk. Iced: $5.50"
+            "desc": "Chai spice, espresso shot, and steamed milk. Iced: $5.50"
         },
         {
             "name": "Specialty Latte",
@@ -212,14 +212,14 @@
             "desc": "Iced: $5.50"
         },
         {
-            "name": "Tea Latter",
+            "name": "Tea Latte",
             "price": "$3.50",
             "desc": "Loose leaf tea bag in steamed milk."
         },
         {
             "name": "Cafe Au Lait",
             "price": "$3.25",
-            "desc": "Fresh roasted coffee with a side of steamed milk."
+            "desc": "Fresh roasted coffee with steamed milk."
         }
     ]
 }
