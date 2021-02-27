@@ -183,6 +183,26 @@
         </p>
       </div>
 
+      {% for drink in misc.coffees %}
+      <div class="item">
+        <div class="item__wrapper">
+          <div class="item__name">{{ drink.name }}</div>
+          <div class="item__description">{{ drink.desc }}</div>
+          <div class="item__price">{{ drink.price }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
+      {% for drink in misc.teas %}
+      <div class="item">
+        <div class="item__wrapper">
+          <div class="item__name">{{ drink.name }}</div>
+          <div class="item__description">{{ drink.desc }}</div>
+          <div class="item__price">{{ drink.price }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
       {% for drink in misc.lattes %}
       <div class="item">
         <div class="item__wrapper">

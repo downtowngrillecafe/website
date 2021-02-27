@@ -141,7 +141,31 @@
       "Lg. (+ $.50),",
       "XL (+ $.75)"
     ],
-    "coffees/lattes": [
+    "coffees": [
+        {
+            "name": "Regular Coffee",
+            "price": "$2.00",
+            "desc": "Regular (or Decaf) Coffee. Iced: $2.75"
+        },
+        {
+            "name": "Cold Brew",
+            "price": "$4.50",
+            "desc": "Regular (or Decaf) Coffee. Iced: $5.50"
+        }
+    ],
+    "teas": [
+        {
+            "name": "Tea (Black or Green)",
+            "price": "$2.00",
+            "desc": "Regular Black or Green Tea. Iced: $2.75"
+        },
+        {
+            "name": "Milk",
+            "price": "$2.25",
+            "desc": "Regular Milk"
+        }
+    ],
+    "lattes": [
         {
             "name": "Americano",
             "price": "$3.00",
@@ -178,9 +202,9 @@
             "desc": "Chai spice and steamed milk. Iced: $4.75"
         },
         {
-          "name": "Dirty Chai Latte",
-          "price": "$4.50",
-          "desc": "Chai spice and steamed milk. Iced: $5.50"
+            "name": "Dirty Chai Latte",
+            "price": "$4.50",
+            "desc": "Chai spice and steamed milk. Iced: $5.50"
         },
         {
             "name": "Specialty Latte",
