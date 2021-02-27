@@ -31,6 +31,8 @@ miscellaneous:
   summaryTwelve: 'Protein Choice'
   summaryThirteen: 'Bread Options'
   summaryFourteen: 'Dressings'
+  summaryFifteen: 'Iced Coffee (one size)'
+  summarySixteen: 'Hot Coffee (S, M, L, XL)'
 others:
   inform: 'Please inform someone of any other food allergies that someone in your party may have. Thank you.'
   prices: 'Prices subject to change and do not include 9%; New Hampshire meals tax.'
