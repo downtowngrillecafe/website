@@ -136,10 +136,10 @@
         }
     ],
     "prices_by_size": [
-      "small (shown),",
-      "medium (+ $.25),",
-      "large (+ $.50),",
-      "extra-large (+ $.75)"
+      "Sm. (shown),",
+      "Med. (+ $.25),",
+      "Lg. (+ $.50),",
+      "XL (+ $.75)"
     ],
     "lattes": [
         {
