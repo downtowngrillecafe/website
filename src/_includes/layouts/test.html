@@ -176,6 +176,14 @@
 
     <h3 class="sidebar">{{ miscellaneous.summaryEleven }}</h3>
       {% for drink in misc.lattes %}
+      <div class="extras">
+        <p>{{ miscellaneous.summaryFifteen }}:
+          {% for dressing in misc.price-by-sizes %}
+          {{ price-by-sizes }}
+          {% endfor %}
+        </p>
+      </div>
+
       <div class="item">
         <div class="item__wrapper">
           <div class="item__name">{{ drink.name }}</div>
@@ -184,14 +192,6 @@
         </div>
       </div>
       {% endfor %}
-
-      <div class="extras">
-        <p>{{ miscellaneous.summaryFifteen }}:
-          {% for dressing in misc.price-by-sizes %}
-          {{ price-by-sizes }}
-          {% endfor %}
-        </p>
-      </div>
     </div>
 
     <!-- <button class="menu-download"><a href="#">{{ intro.buttonText }}</a></button>
