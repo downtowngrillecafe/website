@@ -141,31 +141,31 @@
       "Lg. (+ $.50),",
       "XL (+ $.75)"
     ],
-    "lattes": [
+    "coffees/lattes": [
         {
             "name": "Americano",
             "price": "$3.00",
-            "desc": "Espresso and hot water."
+            "desc": "Espresso and hot water. Iced: $3.75"
         },
         {
             "name": "Capuccino",
             "price": "$3.50",
-            "desc": "Espresso and steamed milk foam."
+            "desc": "Espresso and steamed milk foam. Iced: $4.75"
         },
         {
             "name": "Espresso",
             "price": "$2.50",
-            "desc": "Double shot!"
+            "desc": "Double shot! Iced: $3.50"
         },
         {
             "name": "Latte",
             "price": "$3.50",
-            "desc": "Espresso and steamed milk."
+            "desc": "Espresso and steamed milk. Iced: $4.75"
         },
         {
             "name": "Mocha",
             "price": "$3.75",
-            "desc": "Latte with dark chocolate syrup."
+            "desc": "Latte with dark chocolate syrup. Iced: $5.00"
         },
         {
             "name": "Shot in the dark",
@@ -175,12 +175,17 @@
         {
             "name": "Chai Latte",
             "price": "$3.50",
-            "desc": "Chai spice and steamed milk."
+            "desc": "Chai spice and steamed milk. Iced: $4.75"
+        },
+        {
+          "name": "Dirty Chai Latte",
+          "price": "$4.50",
+          "desc": "Chai spice and steamed milk. Iced: $5.50"
         },
         {
             "name": "Specialty Latte",
             "price": "$4.50",
-            "desc": ""
+            "desc": "Iced: $5.50"
         },
         {
             "name": "Tea Latter",
