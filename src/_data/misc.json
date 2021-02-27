@@ -155,9 +155,9 @@
     ],
     "teas": [
         {
-            "name": "Tea (Black or Green)",
+            "name": "Tea (Assorted Varieties)",
             "price": "$2.00",
-            "desc": "Regular Black or Green Tea. Iced: $2.75"
+            "desc": "Regular teas (all varities). Iced (Black or Green Tea): $2.75"
         },
         {
             "name": "Milk",
