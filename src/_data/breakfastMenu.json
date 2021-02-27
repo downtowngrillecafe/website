@@ -57,6 +57,7 @@
     },
     {
       "name": "Corned Beef Hash W/Eggs & Cheese",
+      "desc": "Two (2) fried eggs with our own corned beef hash, with cheese, in a wrap.",
       "prepared": "Grilled",
       "price": "$7.75",
       "allergens": [
