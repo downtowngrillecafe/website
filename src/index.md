@@ -10,8 +10,8 @@ intro:
   buttonUrl: '/menu'
   image: '/images/logo.png'
   imageAlt: 'DowntownGrille Cafe logo a ship with a brown sail and a blue sail.'
-  soups: '3 Bean Chili, Chicken and Artichoke, Lobster Bisque'
-  specials: 'Greek Salad or Wrap, Ham, Cranberry, and Brie Panini, Buffalo Chicken Salad'
+  soups: '3 Bean Chili, Beef Stew'
+  specials: 'Ham, Cranberry, and Brie Panini, Buffalo Chicken Salad, Roast Beef Bistro'
 breakfast:
   title: 'Breakfast'
   summary: 'Wraps'
