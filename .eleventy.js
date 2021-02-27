@@ -11,6 +11,7 @@ module.exports = config => {
   // Set the directories to pass through to the 'dist' folder
   config.addPassthroughCopy('./src/images/');
   config.addPassthroughCopy('./src/css/');
+  config.addPassthroughCopy('./src/js/');
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
