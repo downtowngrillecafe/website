@@ -184,14 +184,14 @@
         </div>
       </div>
       {% endfor %}
-    </div>
 
-    <div class="extras">
-      <p>
-        {% for dressing in misc.price-by-sizes %}
-        {{ price-by-sizes }}
-        {% endfor %}
-      </p>
+      <div class="extras">
+        <p>{{ miscellaneous.summaryFourteen }}:
+          {% for dressing in misc.price-by-sizes %}
+          {{ price-by-sizes }}
+          {% endfor %}
+        </p>
+      </div>
     </div>
 
     <!-- <button class="menu-download"><a href="#">{{ intro.buttonText }}</a></button>
