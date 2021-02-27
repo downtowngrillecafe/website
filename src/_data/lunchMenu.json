@@ -83,7 +83,7 @@
             ]
         },
         {
-            "name": "Portobello Mushrom Grille",
+            "name": "Portobello Mushroom Grille",
             "price": "$9.25",
             "desc": "Portobello mushroom, spinach, peppers, tomato, onion, and Bleu cheese on a grilled wrap",
             "prepared": "Grilled",
@@ -112,7 +112,7 @@
         {
             "name": "California Club Panini",
             "price": "$11.50",
-            "desc": "Fresh roasted turkey, bacon, avocado, baby spinach, Mozzarella. (May contain pine nuts)",
+            "desc": "Fresh roasted turkey, bacon, avocado, baby spinach, Mozzarella and pesto. (May contain pine nuts)",
             "allergens": [
                 "dairy",
                 "nuts"
