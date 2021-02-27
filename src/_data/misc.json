@@ -138,12 +138,7 @@
     "lattes": [
         {
             "name": "Americano",
-            "price_option": {
-              "small": "$3.00",
-              "medium": "$3.25",
-              "large": "$3.50",
-              "x-large": "$3.75"
-            },
+            "price": "$3.00",
             "desc": "Espresso and hot water."
         },
         {
@@ -191,5 +186,11 @@
             "price": "$3.25",
             "desc": "Fresh roasted coffee with a side of steamed milk."
         }
+    ],
+    "prices_by_size": [
+      "small (price shown),",
+      "medium (+ $.25),",
+      "large (+ $.50),",
+      "extra-large (+ $.75)"
     ]
 }
