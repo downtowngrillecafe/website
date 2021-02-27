@@ -57,7 +57,7 @@
     },
     {
       "name": "Corned Beef Hash W/Eggs & Cheese",
-      "desc": "Two (2) fried eggs, our own corned beef hash, cheese in a wrap.",
+      "desc": "Two (2) fried eggs with our own corned beef hash, with cheese, in a wrap.",
       "prepared": "Grilled",
       "price": "$7.75",
       "allergens": [
@@ -163,7 +163,7 @@
     {
       "name": "Eggs Benedict",
       "price": "$8.00",
-      "desc": "2 poached eggs with Hollandaise sauce, choice of protein or baby spinach & fresh tomato on a toasted English Mmffin.",
+      "desc": "2 poached eggs with Hollandaise sauce, choice of protein or baby spinach & fresh tomato on a toasted English muffin.",
       "allergens": [
         "dairy",
         "eggs"
@@ -172,7 +172,7 @@
     {
       "name": "Corned Beef Hash Benedict",
       "price": "$8.25",
-      "desc": "2 poached eggs on an English Muffin topped with our own corned beef hash & Hollandaise sauce.",
+      "desc": "2 poached eggs on an English muffin topped with our own corned beef hash & Hollandaise sauce.",
       "allergens": [
         "dairy",
         "eggs"
