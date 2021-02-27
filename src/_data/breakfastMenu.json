@@ -163,7 +163,7 @@
     {
       "name": "Eggs Benedict",
       "price": "$8.00",
-      "desc": "2 poached eggs with Hollandaise sauce, choice of protein or baby spinach & fresh tomato on a toasted English Muffin.",
+      "desc": "2 poached eggs with Hollandaise sauce, choice of protein or baby spinach & fresh tomato on a toasted English Mmffin.",
       "allergens": [
         "dairy",
         "eggs"
