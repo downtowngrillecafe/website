@@ -101,6 +101,8 @@
       </div>
     </div>
 
+    {% endfor %}
+
     <div class="extras">
       <p>{{ lunch.summarySevenB }}:
         {% for burger_notice in lunchMenu.burger_notice %}
@@ -108,7 +110,6 @@
         {% endfor %}
       </p>
     </div>
-    {% endfor %}
 
     <h4 class="section-subheadline">{{ lunch.summarySeven }}</h4>
     {% for sandwich in lunchMenu.hot_sandwiches %}
