@@ -92,10 +92,7 @@
         {
           "name": "Garden Burger",
           "price": "$10.00",
-          "desc": "Vegetarian burger with lettuce, tomato, onion and sweet fries.",
-          "allergens": [
-            ""
-          ]
+          "desc": "Vegetarian burger with lettuce, tomato, onion and sweet fries."
         },
         {
           "name": "Smokehouse BBQ Double Burger",
@@ -108,10 +105,7 @@
         {
           "name": "Jumbo All-Beef Hot Dog",
           "price": "$5.75",
-          "desc": "All beef hot dog on a grilled roll. (Add sauerkraut: $1.50)",
-          "allergens": [
-            ""
-          ]
+          "desc": "All beef hot dog on a grilled roll. (Add sauerkraut: $1.50)"
         },
         {
           "name": "Jumbo CHili Dog",
@@ -129,6 +123,9 @@
             "dairy"
           ]
         }
+    ],
+    "burger_notice": [
+      "All double burgers come with French fries and include two (2) &frac14; pound beef patties. American cheese unless otherwise specified."
     ],
     "hot_sandwiches": [
         {

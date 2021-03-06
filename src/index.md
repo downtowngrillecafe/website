@@ -24,6 +24,7 @@ lunch:
   summarySix: 'Cold Sandwiches'
   summarySeven: 'Hot Sandwiches'
   summarySevenA: 'Burgers/Dogs'
+  summarySevenB: 'Notice'
   summaryEight: 'Sides'
   summaryNine: 'Soups/Salads'
 miscellaneous:
