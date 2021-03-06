@@ -230,6 +230,8 @@ em.or {
 
 #others {
   grid-column: 1 / 10;
+  padding: 0 1rem;
+  margin-left: 1rem
 }
 
 .tarts {
@@ -351,6 +353,7 @@ button.order-online {
 }
 
 @media (min-width: 320px) and (max-width: 1200px) {
+
   button.menu-download,
   button.order-online {
     padding: 2rem 4rem;

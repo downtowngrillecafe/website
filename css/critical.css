@@ -656,7 +656,8 @@ em.or {
 
 #others {
   grid-column: 1/10;
-  padding: 0 1rem
+  padding: 0 1rem;
+  margin-left: 1rem
 }
 
 .tarts {
@@ -791,10 +792,10 @@ footer {
   margin-top: 1rem;
   font-weight: 700;
   text-transform: uppercase;
-  align-items: center;
+  /* align-items: center;
   justify-content: space-between;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   line-height: 5.5rem
 }
 
