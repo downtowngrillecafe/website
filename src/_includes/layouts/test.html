@@ -102,11 +102,11 @@
     </div>
 
     <div class="extras">
-      {{ miscellaneous.summarySevenB }}:
-
-      {% for burger_notice in lunchMenu.burger_notice %}
-        {{ burger_notice }}
-      {% endfor %}
+      <p>{{ miscellaneous.summarySevenB }}:
+        {% for burger_notice in lunchMenu.burger_notice %}
+          {{ burger_notice }}
+        {% endfor %}
+      </p>
     </div>
     {% endfor %}
 
