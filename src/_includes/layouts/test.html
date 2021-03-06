@@ -86,6 +86,22 @@
     </div>
     {% endfor %}
 
+    <h4 class="section-subheadline">{{ lunch.summarySevenA }}</h4>
+    {% for sandwich in lunchMenu.burgers_dogs %}
+    <div class="item">
+      <div class="item__wrapper">
+        <div class="item__name">{{ sandwich.name }}</div>
+        <div class="item__price">{{ sandwich.price }}</div>
+        <div class="item__description">{{ sandwich.desc }}</div>
+        <div class="item__allergens">
+          {% for allergen in sandwich.allergens %}
+          <span class="allergen {{ allergen }}">{{ allergen | check }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
     <h4 class="section-subheadline">{{ lunch.summarySeven }}</h4>
     {% for sandwich in lunchMenu.hot_sandwiches %}
     <div class="item">

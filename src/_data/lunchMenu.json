@@ -64,6 +64,72 @@
             "price": ""
         }
     ],
+    "burgers_dogs": [
+        {
+          "name": "Downtown Double Burger",
+          "price": "$11.00",
+          "desc": "Lettuce, tomato, and onion. w/cheese: $11.75, w/Bleu cheese: 12.00, w/bacon & cheese: $12.50",
+          "allergens": [
+            "dairy"
+          ]
+        },
+        {
+          "name": "Cuban Double Burger",
+          "price": "$13.50",
+          "desc": "Ham, Swiss cheese, mayonnaise, mustard, and a pickle pressed in our panini grill.",
+          "allergens": [
+            "dairy"
+          ]
+        },
+        {
+          "name": "Smokehouse BBQ Double Burger",
+          "price": "$13.50",
+          "desc": "Bacon, Cheddar cheese, BBQ sauce, lettuce, tomato, and onion.",
+          "allergens": [
+            "dairy"
+          ]
+        },
+        {
+          "name": "Garden Burger",
+          "price": "$10.00",
+          "desc": "Vegetarian burger with lettuce, tomato, onion and sweet fries.",
+          "allergens": [
+            ""
+          ]
+        },
+        {
+          "name": "Smokehouse BBQ Double Burger",
+          "price": "$13.50",
+          "desc": "Bacon, Cheddar cheese, BBQ sauce, lettuce, tomato, and onion.",
+          "allergens": [
+            "dairy"
+          ]
+        },
+        {
+          "name": "Jumbo All-Beef Hot Dog",
+          "price": "$5.75",
+          "desc": "All beef hot dog on a grilled roll. (Add sauerkraut: $1.50)",
+          "allergens": [
+            ""
+          ]
+        },
+        {
+          "name": "Jumbo CHili Dog",
+          "price": "$8.00",
+          "desc": "All beef hot dog on a grilled roll w/our own chili and Cheddar cheese and onions.",
+          "allergens": [
+            "dairy"
+          ]
+        },
+        {
+          "name": "Jumbo Smokey Dog",
+          "price": "$7.50",
+          "desc": "An all-beef hot dog on a grilled roll w/BBQ sauce and Cheddar cheese.",
+          "allergens": [
+            "dairy"
+          ]
+        }
+    ],
     "hot_sandwiches": [
         {
             "name": "Chicken & Brie Panini",
