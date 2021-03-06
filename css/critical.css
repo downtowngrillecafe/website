@@ -794,7 +794,12 @@ footer {
   align-items: center;
   justify-content: space-between;
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  line-height: 5.5rem
+}
+
+span.online {
+  display: flex
 }
 
 footer p {
