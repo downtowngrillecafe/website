@@ -799,7 +799,7 @@ footer {
   line-height: 5.5rem
 }
 
-span.online {
+.online {
   display: flex
 }
 
