@@ -655,8 +655,8 @@ em.or {
 }
 
 #others {
-  grid-column: 1/10;
-  padding: 0 1rem;
+  grid-column: 1 / 10;
+  padding: 1rem;
   margin-left: 1rem
 }
 
