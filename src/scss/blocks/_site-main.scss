@@ -360,10 +360,3 @@ button.order-online {
     width: 100vw;
   }
 }
-
-@media (min-width: 1280px) and (max-width: 1920px) {
-  .item__price {
-    grid-column: 3;
-    grid-row: 3;
-  }
-}
