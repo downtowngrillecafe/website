@@ -86,7 +86,7 @@ h4 {
 
 .item__price {
   grid-row: 1;
-  grid-column: 3;
+  grid-column: 2;
 }
 
 .item__description {
@@ -358,5 +358,12 @@ button.order-online {
     padding: 2rem 4rem;
     border: none;
     width: 100vw;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1920px) {
+  .item__price {
+    grid-column: 3;
+    grid-row: 3;
   }
 }
