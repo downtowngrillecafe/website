@@ -813,7 +813,7 @@ footer .social-item {
 }
 
 footer .social-item i {
-  display: inline-block;
+  display: flex;;
   border-radius: 50%;
   width: 60px;
   height: 60px;
