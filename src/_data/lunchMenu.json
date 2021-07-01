@@ -131,7 +131,7 @@
         {
             "name": "Chicken & Brie Panini",
             "price": "$13.00",
-            "desc": "Chicken breast, Brie cheese, baby spinach, and basil pesto on a cheese Ciabatta.",
+            "desc": "Chicken breast, Brie cheese, baby spinach, and basil cheese bread.",
             "allergens": [
                 "dairy",
                 "nuts"
@@ -175,7 +175,7 @@
         {
             "name": "California Club Panini",
             "price": "$12.50",
-            "desc": "Fresh roasted turkey, bacon, avocado, baby spinach, Mozzarella and pesto. (May contain pine nuts)",
+            "desc": "Fresh roasted turkey, bacon, avocado, baby spinach, Mozzarella and pesto on basil cheese bread. (May contain pine nuts)",
             "allergens": [
                 "dairy",
                 "nuts"
