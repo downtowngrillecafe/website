@@ -133,7 +133,7 @@
     {
       "name": "Eggs & Toast",
       "price": "$4.75",
-      "desc": "One (1) egg your way & a choice of toast. Add protein: + $3.75",
+      "desc": "One (1) egg your way & a choice of toast.",
       "allergens": [
         "dairy",
         "eggs",
@@ -143,7 +143,7 @@
     {
       "name": "Eggs & Toast",
       "price": "$6.25",
-      "desc": "Two (2) eggs your way & choice of toast. Add protein: + $3.75",
+      "desc": "Two (2) eggs your way & choice of toast.",
       "allergens": [
         "dairy",
         "eggs",

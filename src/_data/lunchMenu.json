@@ -175,7 +175,7 @@
         {
             "name": "California Club Panini",
             "price": "$12.50",
-            "desc": "Fresh roasted turkey, bacon, avocado, baby spinach, Mozzarella and pesto on basil cheese bread. (May contain pine nuts)",
+            "desc": "Fresh roasted turkey, bacon, avocado, baby spinach, Mozzarella and pesto on basil cheese bread.",
             "allergens": [
                 "dairy",
                 "nuts"
@@ -219,7 +219,7 @@
         {
             "name": "Ultimate Grilled Cheese",
             "price": "$9.25",
-            "desc": "Four cheeses, tomato & basil pesto on hearty white. (May contain pine nuts) Add ham or bacon: + $3.25",
+            "desc": "Four cheeses, tomato & basil pesto on hearty white. Add ham or bacon: + $3.25",
             "preapred": "Grilled",
             "allergens": [
                 "dairy",
