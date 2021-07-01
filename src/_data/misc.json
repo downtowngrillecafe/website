@@ -168,57 +168,57 @@
     "lattes": [
         {
             "name": "Americano",
-            "price": "$3.00",
-            "desc": "Espresso and hot water. Iced: $3.75"
+            "price": "$3.50",
+            "desc": "Espresso and hot water. Iced: $4.25"
         },
         {
             "name": "Capuccino",
-            "price": "$3.50",
+            "price": "$4.00",
             "desc": "Espresso and steamed milk foam."
         },
         {
             "name": "Espresso",
-            "price": "$2.50",
-            "desc": "Double shot! Iced: $3.50"
+            "price": "$3.00",
+            "desc": "Double shot! Iced: $4.00"
         },
         {
             "name": "Latte",
-            "price": "$3.50",
-            "desc": "Espresso and steamed milk. Iced: $4.75"
+            "price": "$4.00",
+            "desc": "Espresso and steamed milk. Iced: $5.25"
         },
         {
             "name": "Mocha",
-            "price": "$3.75",
-            "desc": "Latte with dark chocolate syrup. Iced: $5.00"
+            "price": "$4.25",
+            "desc": "Latte with dark chocolate syrup. Iced: $5.50"
         },
         {
             "name": "Shot in the Dark",
-            "price": "$3.50",
+            "price": "$4.00",
             "desc": "Espresso shot with coffee."
         },
         {
             "name": "Chai Latte",
-            "price": "$3.50",
-            "desc": "Chai spice and steamed milk. Iced: $4.75"
+            "price": "$4.00",
+            "desc": "Chai spice and steamed milk. Iced: $5.25"
         },
         {
             "name": "Dirty Chai Latte",
-            "price": "$4.50",
-            "desc": "Chai spice, espresso shot, and steamed milk. Iced: $5.50"
+            "price": "$5.00",
+            "desc": "Chai spice, espresso shot, and steamed milk. Iced: $6.00"
         },
         {
             "name": "Specialty Latte",
-            "price": "$4.50",
-            "desc": "Iced: $5.50"
+            "price": "$5.00",
+            "desc": "Iced: $6.00"
         },
         {
             "name": "Tea Latte",
-            "price": "$3.50",
+            "price": "$4.00",
             "desc": "Loose leaf tea bag in steamed milk."
         },
         {
             "name": "Cafe Au Lait",
-            "price": "$3.25",
+            "price": "$3.75",
             "desc": "Fresh roasted coffee with steamed milk."
         }
     ]
