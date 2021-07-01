@@ -2,7 +2,7 @@
     "cold_sandwiches": [
         {
             "name": "Fresh Roasted Turkey",
-            "price": "$8.50",
+            "price": "$9.00",
             "desc": "A classic turkey sandwich with lettuce, tomato, & mayonnaise on hearty white bread.",
             "allergens": [
                 "dairy"
@@ -10,7 +10,7 @@
         },
         {
             "name": "Ham & Swiss",
-            "price": "$8.50",
+            "price": "$9.00",
             "desc": "Swiss cheese, lettuce, tomato, & dijon mustard on hearty Rye bread.",
             "allergens": [
                 "dairy"
@@ -18,7 +18,7 @@
         },
         {
             "name": "The Avocado BLT",
-            "price": "$9.75",
+            "price": "$10.25",
             "desc": "Bacon, lettuce, tomato, avocado & Sriracha mayonnaise on toasted hearty white bread.",
             "allergens": [
                 "dairy"
@@ -26,12 +26,12 @@
         },
         {
             "name": "The Classic BLT",
-            "price": "$8.00",
+            "price": "$8.50",
             "desc": "The classic bacon, lettuce, tomato sandwich on toasted hearty white bread with mayonnaise."
         },
         {
             "name": "Chicken Salad",
-            "price": "$8.00",
+            "price": "$8.50",
             "desc": "Chicken, mayonnaise, celery & lettuce on your choice of bread.",
             "allergens": [
                 "dairy",
@@ -40,7 +40,7 @@
         },
         {
             "name": "Egg Salad",
-            "price": "$8.00",
+            "price": "$8.50",
             "desc": "A classic egg salad with mayonnaise & lettuce on your choice of bread.",
             "allergens": [
                 "dairy",
@@ -49,7 +49,7 @@
         },
         {
             "name": "Tuna Salad",
-            "price": "$8.00",
+            "price": "$8.50",
             "desc": "Tuna, mayonnaise, celery & lettuce on your choice of bread.",
             "allergens": [
                 "dairy",
@@ -67,7 +67,7 @@
     "burgers_dogs": [
         {
           "name": "Downtown Double Burger",
-          "price": "$11.00",
+          "price": "$12.00",
           "desc": "Lettuce, tomato, and onion. w/cheese: $11.75, w/Bleu cheese: 12.00, w/bacon & cheese: $12.50",
           "allergens": [
             "dairy"
@@ -104,12 +104,12 @@
         },
         {
           "name": "Jumbo All-Beef Hot Dog",
-          "price": "$5.75",
+          "price": "$6.25",
           "desc": "All beef hot dog on a grilled roll. (Add sauerkraut: $1.50)"
         },
         {
-          "name": "Jumbo CHili Dog",
-          "price": "$8.00",
+          "name": "Jumbo Chili Dog",
+          "price": "$8.50",
           "desc": "All beef hot dog on a grilled roll w/our own chili and Cheddar cheese and onions.",
           "allergens": [
             "dairy"
@@ -130,7 +130,7 @@
     "hot_sandwiches": [
         {
             "name": "Chicken & Brie Panini",
-            "price": "$12.00",
+            "price": "$13.00",
             "desc": "Chicken breast, Brie cheese, baby spinach, and basil pesto on a cheese Ciabatta.",
             "allergens": [
                 "dairy",
@@ -139,7 +139,7 @@
         },
         {
             "name": "Turkey Cranberry Grille",
-            "price": "$9.75",
+            "price": "$10.75",
             "desc": "Fresh roasted turkey, Swiss cheese, cranberry sauce & horseradish mayonnaise on hearty white.",
             "allergens": [
                 "dairy"
@@ -147,7 +147,7 @@
         },
         {
             "name": "Portobello Mushroom Grille",
-            "price": "$9.25",
+            "price": "$10.25",
             "desc": "Portobello mushroom, spinach, peppers, tomato, onion, and Bleu cheese on a grilled wrap",
             "prepared": "Grilled",
             "allergens": [
@@ -157,7 +157,7 @@
         },
         {
             "name": "Buffalo Chicken Grille",
-            "price": "$9.00",
+            "price": "$10.00",
             "desc": "Chicken breast, Bleu cheese, tomato, onion, & hot sauce in a garlic & herb wrap.",
             "allergens": [
                 "dairy"
@@ -165,7 +165,7 @@
         },
         {
             "name": "Grilled Chicken",
-            "price": "$9.00",
+            "price": "$10.00",
             "desc": "Chicken breast, lettuce, tomato, & mayonnaise on a grilled deli roll.",
             "prepared": "grilled",
             "allergens": [
@@ -174,7 +174,7 @@
         },
         {
             "name": "California Club Panini",
-            "price": "$11.50",
+            "price": "$12.50",
             "desc": "Fresh roasted turkey, bacon, avocado, baby spinach, Mozzarella and pesto. (May contain pine nuts)",
             "allergens": [
                 "dairy",
@@ -183,7 +183,7 @@
         },
         {
             "name": "Ham & Pepper Jack Panini",
-            "price": "$9.75",
+            "price": "$10.75",
             "desc": "Ham, Pepper Jack cheese, bacon & horseradish sauce on a grilled Ciabatta roll.",
             "prepared": "Grilled",
             "allergens": [
@@ -192,7 +192,7 @@
         },
         {
             "name": "Watkins' Special",
-            "price": "$8.00",
+            "price": "$9.00",
             "desc": "Bacon, tomato & Cheddar cheese on grilled hearty Rye bread.",
             "prepared": "Grilled",
             "allergens": [
@@ -201,7 +201,7 @@
         },
         {
             "name": "Hot Pressed Cubano",
-            "price": "$9.25",
+            "price": "$10.25",
             "desc": "Bacon, ham, fresh roasted turkey, Swiss cheese, pickle & mustard on a grilled Cuban roll.",
             "preapred": "Grilled",
             "allergens": [
@@ -210,7 +210,7 @@
         },
         {
             "name": "Turkey Reuben Grille",
-            "price": "$9.00",
+            "price": "$10.00",
             "desc": "Fresh roasted turkey, sauerkraut, bistro sauce, Pepper Jack & Swiss cheese in a garlic & herb wrap.",
             "allergens": [
                 "dairy"
@@ -218,7 +218,7 @@
         },
         {
             "name": "Ultimate Grilled Cheese",
-            "price": "$8.25",
+            "price": "$9.25",
             "desc": "Four cheeses, tomato & basil pesto on hearty white. (May contain pine nuts) Add ham or bacon: + $3.25",
             "preapred": "Grilled",
             "allergens": [
@@ -228,7 +228,7 @@
         },
         {
             "name": "Classic Grilled Cheese",
-            "price": "$6.50",
+            "price": "$7.50",
             "desc": "The classic cheese sandwich! American cheese grilled on hearty white.",
             "preapred": "Grilled",
             "allergens": [

@@ -27,7 +27,7 @@
     "waffles_and_more": [
         {
             "name": "Traditional Waffle",
-            "price": "$7.00",
+            "price": "$8.00",
             "desc": "Crispy golden malted waffle",
             "allergens": [
                 "dairy"
@@ -35,19 +35,19 @@
         },
         {
             "name": "Multi-Grain Traditional Waffle",
-            "price": "$7.00",
+            "price": "$8.00",
             "desc": "Crispy golden whole grain waffle.",
             "allergens": ["dairy"]
         },
         {
             "name": "Gluten Free Traditional Waffle",
-            "price": "$9.25",
+            "price": "$10.00",
             "desc": "Our gluten free traditional waffle.",
             "allergens": ["dairy"]
         },
         {
             "name": "French Toast",
-            "price": "$8.00",
+            "price": "$9.00",
             "desc": "Hand cut French bread or multi-grain bread dipped in egg batter & griddled until golden brown.",
             "allergens": [
                 "dairy",
@@ -67,27 +67,27 @@
         {
             "name": "French Fries",
             "price_option": {
-                "side": "$3.00",
-                "large": "$4.25"
+                "side": "$3.50",
+                "large": "$4.75"
             }
         },
         {
             "name": "Sweet Potato Fries",
             "price_option": {
-                "side": "$4.00",
-                "large": "$5.50"
+                "side": "$4.50",
+                "large": "$6.00"
             }
         },
         {
             "name": "Onion Rings",
             "price_option": {
-                "side": "$4.00",
-                "large": "$5.50"
+                "side": "$4.50",
+                "large": "$6.00"
             }
         },
         {
             "name": "Side Salad",
-            "price": "$5.75"
+            "price": "$6.25"
         }
     ],
     "dressings": [
@@ -192,7 +192,7 @@
             "desc": "Latte with dark chocolate syrup. Iced: $5.00"
         },
         {
-            "name": "Shot in the dark",
+            "name": "Shot in the Dark",
             "price": "$3.50",
             "desc": "Espresso shot with coffee."
         },
