@@ -23,8 +23,8 @@
       ]
     },
     {
-      "name": "Market Wrap",
-      "description": "Two (2) scrambled eggs, Cheddar cheese, sausage patty, green onions, peppers and sautéed mushrooms in a wrap. *",
+      "name": "Market Wrap *",
+      "description": "Two (2) scrambled eggs, Cheddar cheese, sausage patty, green onions, peppers and sautéed mushrooms in a wrap.",
       "prepared": "Grilled",
       "price": "$8.25",
       "allergens": [
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "name": "Flat Wrap Benny",
+      "name": "Flat Wrap Benny *",
       "description": "Two (2) poached eggs, Hollandaise sauce & your choice of protein in a wrap.",
       "prepared": "Grilled",
       "price": "$9.00",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "name": "Flat Wrap Benny w/Hash",
+      "name": "Flat Wrap Benny w/Hash *",
       "description": "Two (2) poached eggs, Hollandaise sauce & our own corned beef hash in a wrap.",
       "prepared": "Grilled",
       "price": "$9.50",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "Corned Beef Hash W/Eggs & Cheese",
+      "name": "Corned Beef Hash W/Eggs & Cheese *",
       "description": "Two (2) fried eggs with our own corned beef hash, with cheese, in a wrap.",
       "prepared": "Grilled",
       "price": "$9.00",
@@ -85,7 +85,7 @@
   ],
   "breakfast_sandwiches": [
     {
-      "name": "Egg Sandwich",
+      "name": "Egg Sandwich *",
       "price": "$5.75",
       "desc": "One (1) fried egg with American cheese & choice of protein on a Ciabatta roll.",
       "prepared": "Made to Order",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "name": "Iggy's Breakfast Special",
+      "name": "Iggy's Breakfast Special *",
       "price": "$7.50",
       "desc": "One (1) fried egg, American cheese, lettuce, tomato, mayonnaise & choice of protein on a grilled deli roll.",
       "prepared": "Grilled",
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "name": "Croissant Sandwich",
+      "name": "Croissant Sandwich *",
       "price": "$8.00",
       "desc": "Two (2) fried eggs, American cheese & choice of protein or baby spinach on a grilled croissant.",
       "prepared": "Grilled",
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "name": "Corned Beef Hash & Eggs",
+      "name": "Corned Beef Hash & Eggs *",
       "price": "$8.50",
       "desc": "Our own crispy corned beef hash, 2 eggs your way served with toast.",
       "allergens": [
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "name": "Corned Beef Hash Benedict",
+      "name": "Corned Beef Hash Benedict *",
       "price": "$9.25",
       "desc": "2 poached eggs on an English muffin topped with our own corned beef hash & Hollandaise sauce.",
       "allergens": [
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "name": "Cheese Omelette",
+      "name": "Cheese Omelette *",
       "price": "$7.50",
       "desc": "2 extra large eggs and cheese served with toast. Additional priced fillings: Baby spinach, tomato, mushroom, onions, sausage patty, bacon, ham, corned beef hash.",
       "allergens": [
@@ -188,7 +188,7 @@
       ]
     },
     {
-      "name": "Market Omelette",
+      "name": "Market Omelette *",
       "price": "$8.50",
       "desc": "2 extra large eggs, Cheddar cheese, sausage patty, green onions, peppers, sautéed mushrooms served with toast.",
       "allergens": [
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "name": "Western Omelette",
+      "name": "Western Omelette *",
       "price": "$9.00",
       "desc": "2 extra large eggs, ham, Swiss cheese, peppers & onions served with toast.",
       "allergens": [

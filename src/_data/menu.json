@@ -22,7 +22,7 @@
     ],
     "item3": [
       {
-        "name": "Market Wrap",
+        "name": "Market Wrap *",
         "description": "Two (2) scrambled eggs, Cheddar cheese, sausage patty, green onions, peppers and sautéed mushrooms in a wrap.",
         "prepared": "Grilled",
         "price": "$7.25",
@@ -42,7 +42,7 @@
     ],
     "item5": [
       {
-        "name": "Flat Wrap Benny w/Hash",
+        "name": "Flat Wrap Benny w/Hash *",
         "description": "Two (2) poached eggs, Hollandaise sauce & our own corned beef hash in a wrap.",
         "prepared": "Grilled",
         "price": "$8.50",
@@ -52,7 +52,7 @@
     ],
     "item6": [
       {
-        "name": "Corned Beef Hash w/Eggs & Cheese",
+        "name": "Corned Beef Hash w/Eggs & Cheese *",
         "description": "Two (2) fried eggs, our own corned beef hash, cheese in a wrap.",
         "prepared": "Grilled",
         "price": "$7.75",
