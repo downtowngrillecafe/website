@@ -891,7 +891,7 @@ main:focus {
   outline: none;
 }
 
-#others p.advisory {
+p.advisory {
   text-transform: uppercase;
 }
 
