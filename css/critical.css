@@ -887,7 +887,7 @@ a:not([class]) {
   outline-offset: .25rem
 }
 
-p.advisory {
+.advisory {
   text-transform: uppercase;
 }
 
