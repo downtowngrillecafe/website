@@ -891,10 +891,6 @@ main:focus {
   outline: none;
 }
 
-p.advisory {
-  text-transform: uppercase;
-}
-
 h1,
 h2,
 h3,

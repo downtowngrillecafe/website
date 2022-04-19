@@ -10,7 +10,7 @@
         },
         {
             "name": "Cookies",
-            "price": "$4.50",
+            "price": "$2.50",
             "desc": "Peanut Butter, Chocolate Chip, Molasses, Oatmeal, HEATH Bar"
         },
         {
@@ -27,7 +27,7 @@
     "waffles_and_more": [
         {
             "name": "Traditional Waffle",
-            "price": "$8.00",
+            "price": "$9.00",
             "desc": "Crispy golden malted waffle",
             "allergens": [
                 "dairy"
@@ -35,19 +35,19 @@
         },
         {
             "name": "Multi-Grain Traditional Waffle",
-            "price": "$8.00",
+            "price": "$9.00",
             "desc": "Crispy golden whole grain waffle.",
             "allergens": ["dairy"]
         },
         {
             "name": "Gluten Free Traditional Waffle",
-            "price": "$10.00",
+            "price": "$11.50",
             "desc": "Our gluten free traditional waffle.",
             "allergens": ["dairy"]
         },
         {
             "name": "French Toast",
-            "price": "$9.00",
+            "price": "$10.50",
             "desc": "Hand cut French bread or multi-grain bread dipped in egg batter & griddled until golden brown.",
             "allergens": [
                 "dairy",
@@ -102,22 +102,22 @@
     "soups_and_salads": [
         {
             "name": "Three Bean & Beef Chili",
-            "price": "$6.50",
+            "price": "$7.00",
             "desc": "3 Bean & Beef chili served with Cheddar cheese and chopped onion."
         },
         {
             "name": "Mixed Green Salad",
-            "price": "$9.50",
+            "price": "$10.00",
             "desc": "Lettuce, cucumbers, tomatoes, carrots, broccoli & peppers."
         },
         {
             "name": "Chef Salad",
-            "price": "$12.50",
+            "price": "$13.00",
             "desc": "Lettuce, cucumbers, tomatoes, carrots, broccoli, peppers, hard boiled egg topped with ham, turkey, and Swiss cheese."
         },
         {
             "name": "Signature Salad",
-            "price": "$10.50",
+            "price": "$11.00",
             "desc": "Baby spinach topped with cranberries, almonds, and goat cheese."
         }
     ],
