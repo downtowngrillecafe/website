@@ -606,7 +606,6 @@ em.or {
 
 @media (min-width:1200px) {
   .entrees .item {
-    display: flex;
     align-items: center;
     padding: 1rem
   }
@@ -920,9 +919,10 @@ h4 {
 
 .icon {
   display: inline-block;
-  width: 50%;
+  width: 75%;
   height: 100%;
   stroke-width: 0;
   stroke: currentColor;
-  fill: currentColor
+  fill: currentColor;
+  padding-left: .125em;
 }
