@@ -30,6 +30,15 @@ footer .social-item i {
   text-align: center;
   color: #e2dccc;
 }
+.icon {
+  display: inline-block;
+  width: 75%;
+  height: 100%;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  padding-left: .125em;
+}
 
 footer .social-item:nth-child(1) {
   color: #3050a6;
