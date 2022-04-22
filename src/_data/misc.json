@@ -15,12 +15,12 @@
         },
         {
             "name": "Scones",
-            "price": "$5.00",
+            "price": "$3.50",
             "desc": "Blueberry, Apple Cinnamon, Raspberry White Chocolate"
         },
         {
             "name": "Gluten free deli roll, bagel, wrap, or English muffin",
-            "price": "$2.50",
+            "price": "$3.50",
             "desc": "Your choice of a gluten free deli roll, bagel, wrap, or English muffin"
         }
     ],
