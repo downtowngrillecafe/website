@@ -67,8 +67,8 @@
     "burgers_dogs": [
         {
           "name": "Downtown Double Burger *",
-          "price": "$12.00",
-          "desc": "Lettuce, tomato, and onion. w/cheese: $12.75, w/bacon & cheese: $13.50",
+          "price": "$13.00",
+          "desc": "Lettuce, tomato, and onion. w/cheese: $13.75, w/bacon & cheese: $14.50",
           "allergens": [
             "dairy"
           ]
