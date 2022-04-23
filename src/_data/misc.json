@@ -67,22 +67,22 @@
         {
             "name": "French Fries",
             "price_option": {
-                "side": "$3.50",
-                "large": "$4.75"
+                "side": "$4.50",
+                "large": "$5.75"
             }
         },
         {
             "name": "Sweet Potato Fries",
             "price_option": {
-                "side": "$4.50",
-                "large": "$6.00"
+                "side": "$5.50",
+                "large": "$7.00"
             }
         },
         {
             "name": "Onion Rings",
             "price_option": {
-                "side": "$4.50",
-                "large": "$6.00"
+                "side": "$5.50",
+                "large": "$7.00"
             }
         },
         {
